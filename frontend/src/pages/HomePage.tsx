@@ -11,7 +11,8 @@ export default function HomePage() {
       category: "Wellness & Health",
       badge: "Best Seller",
       price: "$39.99",
-      description: "Sourced from high-altitude rock crevices in the Garhwal Himalayas at 16,000 feet. Purified using traditional Triphala methods, HimShakti Raw Shilajit is a potent, mineral-rich adaptogen. Restores natural energy, sharpens mental clarity, and boosts immune response. Certified organic and lab-tested.",
+      description:
+        "Sourced from high-altitude rock crevices in the Garhwal Himalayas at 16,000 feet. Purified using traditional Triphala methods, HimShakti Raw Shilajit is a potent, mineral-rich adaptogen. Restores natural energy, sharpens mental clarity, and boosts immune response. Certified organic and lab-tested.",
       highlightIcon: "🏔️",
     },
     {
@@ -19,7 +20,8 @@ export default function HomePage() {
       category: "Organic Foods",
       badge: "Limited Batch",
       price: "$24.99",
-      description: "Harvested by heritage bee-collectors from high cliffs of Uttarakhand. This rare amber honey features nectar gathered exclusively from wild spring rhododendron blossoms. Unpasteurized and unfiltered, delivering rich floral undertones and natural throat-soothing enzymes.",
+      description:
+        "Harvested by heritage bee-collectors from high cliffs of Uttarakhand. This rare amber honey features nectar gathered exclusively from wild spring rhododendron blossoms. Unpasteurized and unfiltered, delivering rich floral undertones and natural throat-soothing enzymes.",
       highlightIcon: "🍯",
     },
     {
@@ -27,7 +29,8 @@ export default function HomePage() {
       category: "Spices & Herbs",
       badge: "Grade A+",
       price: "$18.50",
-      description: "Stigmas are hand-harvested during dawn in the historic soils of Pampore. Kashmiri Mongra Saffron is renowned for its intense crimson hue, unmatched aroma, and high safranal content. Just three threads enrich dishes with a luxurious golden color and therapeutic antioxidants.",
+      description:
+        "Stigmas are hand-harvested during dawn in the historic soils of Pampore. Kashmiri Mongra Saffron is renowned for its intense crimson hue, unmatched aroma, and high safranal content. Just three threads enrich dishes with a luxurious golden color and therapeutic antioxidants.",
       highlightIcon: "🌸",
     },
   ];
@@ -47,15 +50,14 @@ export default function HomePage() {
             <span className="text-[10px] font-mono font-medium text-accent uppercase tracking-widest bg-accent-soft border border-accent/20 px-3 py-1 rounded-pill">
               [demo] · generated copies
             </span>
-            
+
             <h2 className="text-3xl sm:text-4xl font-serif font-medium tracking-tight text-fg transition-colors duration-300">
-              AI-Generated Copy in{" "}
-              <span className="text-accent">
-                Action
-              </span>
+              AI-Generated Copy in <span className="text-accent">Action</span>
             </h2>
             <p className="text-muted text-base max-w-xl mx-auto transition-colors duration-300">
-              See how HimShakti AI crafts rich, cultural product stories and high-impact marketing descriptions for authentic Himalayan offerings. Click 'Copy' to use these descriptions instantly.
+              See how HimShakti AI crafts rich, cultural product stories and
+              high-impact marketing descriptions for authentic Himalayan
+              offerings. Click 'Copy' to use these descriptions instantly.
             </p>
           </div>
 
@@ -93,9 +95,13 @@ export default function HomePage() {
                 <div className="w-9 h-9 rounded-lg bg-accent-soft border border-accent/20 text-accent flex items-center justify-center font-mono font-medium">
                   01
                 </div>
-                <h3 className="text-lg font-serif font-semibold text-fg">Input Details</h3>
+                <h3 className="text-lg font-serif font-semibold text-fg">
+                  Input Details
+                </h3>
                 <p className="text-xs text-muted leading-relaxed">
-                  Enter your product name, select ingredients, specify the altitude of harvest, and choose the traditional processing method.
+                  Enter your product name, select ingredients, specify the
+                  altitude of harvest, and choose the traditional processing
+                  method.
                 </p>
               </div>
 
@@ -104,9 +110,12 @@ export default function HomePage() {
                 <div className="w-9 h-9 rounded-lg bg-accent-soft border border-accent/20 text-accent flex items-center justify-center font-mono font-medium">
                   02
                 </div>
-                <h3 className="text-lg font-serif font-semibold text-fg">Select Vibe & Format</h3>
+                <h3 className="text-lg font-serif font-semibold text-fg">
+                  Select Vibe & Format
+                </h3>
                 <p className="text-xs text-muted leading-relaxed">
-                  Choose a tone like "Cultural Story", "SEO Bullet Points", or "Premium E-commerce". Support both English and local dialects.
+                  Choose a tone like "Cultural Story", "SEO Bullet Points", or
+                  "Premium E-commerce". Support both English and local dialects.
                 </p>
               </div>
 
@@ -115,9 +124,13 @@ export default function HomePage() {
                 <div className="w-9 h-9 rounded-lg bg-accent-soft border border-accent/20 text-accent flex items-center justify-center font-mono font-medium">
                   03
                 </div>
-                <h3 className="text-lg font-serif font-semibold text-fg">Publish Copy</h3>
+                <h3 className="text-lg font-serif font-semibold text-fg">
+                  Publish Copy
+                </h3>
                 <p className="text-xs text-muted leading-relaxed">
-                  Instantly download or copy descriptions tailored for Amazon, Shopify, or brand websites. Built-in compliance checks included.
+                  Instantly download or copy descriptions tailored for Amazon,
+                  Shopify, or brand websites. Built-in compliance checks
+                  included.
                 </p>
               </div>
             </div>
@@ -125,8 +138,12 @@ export default function HomePage() {
             {/* Quick CTA banner */}
             <div className="grain mt-16 bg-raised border border-line rounded-card p-8 flex flex-col md:flex-row justify-between items-center gap-6 shadow-soft transition-colors duration-300">
               <div className="text-left space-y-1">
-                <h3 className="text-xl font-serif font-semibold text-fg">Ready to boost your sales conversion?</h3>
-                <p className="text-muted text-sm">Start writing premium Himalayan product listings today.</p>
+                <h3 className="text-xl font-serif font-semibold text-fg">
+                  Ready to boost your sales conversion?
+                </h3>
+                <p className="text-muted text-sm">
+                  Start writing premium Himalayan product listings today.
+                </p>
               </div>
               <Link
                 to="/dashboard"
