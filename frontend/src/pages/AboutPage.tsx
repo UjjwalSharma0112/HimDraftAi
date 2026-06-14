@@ -13,16 +13,16 @@ export default function AboutPage() {
               [org] · editorial history
             </span>
             <h1 className="text-4xl sm:text-5xl font-serif font-medium tracking-tight text-fg transition-colors duration-300">
-              About HimShakti AI
+              About HimDraftAi
             </h1>
           </div>
 
           <div className="space-y-6 text-muted leading-relaxed text-base transition-colors duration-300">
             <p>
-              At HimShakti AI, we bridge the gap between ancient Himalayan agricultural wisdom and modern digital commerce. The Himalayas are home to some of the world's most pure, nutrient-dense superfoods—wild raw honey, high-altitude shilajit, organic mountain millets, and fresh hand-plucked herbs. However, local farmers and small cooperatives often struggle to market these premium products effectively to global audiences.
+              At HimDraftAi, we bridge the gap between ancient Himalayan agricultural wisdom and modern digital commerce. The Himalayas are home to some of the world's most pure, nutrient-dense superfoods—wild raw honey, high-altitude shilajit, organic mountain millets, and fresh hand-plucked herbs. However, local farmers and small cooperatives often struggle to market these premium products effectively to global audiences.
             </p>
             <p>
-              Our platform uses fine-tuned AI copy models to automatically generate high-converting, culturally rich e-commerce description copy. By highlighting factors like altitude of harvest, soil purity, ancient preparation methods, and local farmer cooperatives, HimShakti AI crafts product stories that resonate with conscious buyers.
+              Our platform uses fine-tuned AI copy models to automatically generate high-converting, culturally rich e-commerce description copy. By highlighting factors like altitude of harvest, soil purity, ancient preparation methods, and local farmer cooperatives, HimDraftAi crafts product stories that resonate with conscious buyers.
             </p>
             <p>
               We are committed to fostering fair trade, empowering local communities in Uttarakhand, Kashmir, and neighboring regions, and ensuring that the cultural heritage of mountain agriculture is preserved and celebrated.

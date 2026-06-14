@@ -65,7 +65,7 @@ export default function DashboardPage() {
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between border-b border-line pb-6 mb-10 gap-4">
           <div className="text-left space-y-1">
             <h1 className="text-3xl font-serif font-medium tracking-tight text-fg transition-colors duration-300">
-              HimShakti Copy Workspace
+              HimDraftAi Copy Workspace
             </h1>
             <p className="text-muted text-sm max-w-xl transition-colors duration-300">
               Configure parameters and generate premium descriptions for

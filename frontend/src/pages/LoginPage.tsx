@@ -17,10 +17,10 @@ export default function LoginPage() {
 
     // Simulate authentication
     setTimeout(() => {
-      if (email === "demo@himshakti.ai" && password === "password") {
+      if (email === "demo@himdraftai.ai" && password === "password") {
         setSuccess(true);
       } else {
-        setError("Invalid credentials. Try using demo@himshakti.ai with password.");
+        setError("Invalid credentials. Try using demo@himdraftai.ai with password.");
       }
       setLoading(false);
     }, 1200);
@@ -46,7 +46,7 @@ export default function LoginPage() {
 
           {/* Quick Demo Hint */}
           <div className="p-3 bg-accent-soft border border-accent/20 rounded-lg text-xs text-accent leading-normal text-center transition-colors duration-300">
-            <strong>Demo Account:</strong> <span className="font-mono bg-bg/50 px-1 rounded">demo@himshakti.ai</span> / <span className="font-mono bg-bg/50 px-1 rounded">password</span>
+            <strong>Demo Account:</strong> <span className="font-mono bg-bg/50 px-1 rounded">demo@himdraftai.ai</span> / <span className="font-mono bg-bg/50 px-1 rounded">password</span>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-4">

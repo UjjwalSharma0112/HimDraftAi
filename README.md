@@ -1,7 +1,7 @@
 # HimShakti AI Product Copy Generator
 
 AI-powered e-commerce product description generator for traditional Himalayan food products.
-![Project Preview](./frontend/assets/preview.png)
+![Project Preview](./frontend/public/logo.png)
 
 ## Tech Stack
 

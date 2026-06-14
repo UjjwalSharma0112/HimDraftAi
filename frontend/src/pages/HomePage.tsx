@@ -12,7 +12,7 @@ export default function HomePage() {
       badge: "Best Seller",
       price: "$39.99",
       description:
-        "Sourced from high-altitude rock crevices in the Garhwal Himalayas at 16,000 feet. Purified using traditional Triphala methods, HimShakti Raw Shilajit is a potent, mineral-rich adaptogen. Restores natural energy, sharpens mental clarity, and boosts immune response. Certified organic and lab-tested.",
+        "Sourced from high-altitude rock crevices in the Garhwal Himalayas at 16,000 feet. Purified using traditional Triphala methods, HimDraftAi Raw Shilajit is a potent, mineral-rich adaptogen. Restores natural energy, sharpens mental clarity, and boosts immune response. Certified organic and lab-tested.",
       highlightIcon: "🏔️",
     },
     {
@@ -55,7 +55,7 @@ export default function HomePage() {
               AI-Generated Copy in <span className="text-accent">Action</span>
             </h2>
             <p className="text-muted text-base max-w-xl mx-auto transition-colors duration-300">
-              See how HimShakti AI crafts rich, cultural product stories and
+              See how HimDraftAi crafts rich, cultural product stories and
               high-impact marketing descriptions for authentic Himalayan
               offerings. Click 'Copy' to use these descriptions instantly.
             </p>

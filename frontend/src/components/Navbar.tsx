@@ -9,9 +9,12 @@ export default function Navbar() {
   // Initialize theme from localStorage or system preference
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme");
-    const systemPrefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    const initialDark = savedTheme === "dark" || (!savedTheme && systemPrefersDark);
-    
+    const systemPrefersDark = window.matchMedia(
+      "(prefers-color-scheme: dark)",
+    ).matches;
+    const initialDark =
+      savedTheme === "dark" || (!savedTheme && systemPrefersDark);
+
     setIsDark(initialDark);
     if (initialDark) {
       document.documentElement.classList.add("dark");
@@ -46,11 +49,14 @@ export default function Navbar() {
         <Link to="/" className="flex items-center gap-2.5 group">
           <img
             src={logoImg}
-            alt="HimShakti AI Logo"
+            alt="HimDraft AI Logo"
             className="w-9 h-9 rounded-lg object-cover shadow-sm group-hover:scale-105 transition-transform duration-300"
           />
           <span className="text-lg font-sans font-semibold tracking-tight text-fg transition-colors duration-300">
-            HimShakti <span className="text-accent font-sans font-medium text-base bg-accent-soft px-2 py-0.5 rounded-md ml-1 border border-accent/10">AI</span>
+            HimDraft{" "}
+            <span className="text-accent font-sans font-medium text-base bg-accent-soft px-2 py-0.5 rounded-md ml-1 border border-accent/10">
+              AI
+            </span>
           </span>
         </Link>
 
@@ -63,9 +69,7 @@ export default function Navbar() {
                   to={link.path}
                   className={({ isActive }) =>
                     `text-sm font-medium transition-all duration-300 relative py-2 ${
-                      isActive
-                        ? "text-accent"
-                        : "text-muted hover:text-fg"
+                      isActive ? "text-accent" : "text-muted hover:text-fg"
                     }`
                   }
                 >
@@ -86,17 +90,43 @@ export default function Navbar() {
           <button
             onClick={toggleTheme}
             className="w-9 h-9 rounded-lg border border-line bg-raised hover:bg-surface flex items-center justify-center text-muted hover:text-fg transition-all duration-350 focus-ring"
-            title={isDark ? "Switch to Paper (Light Mode)" : "Switch to Ink (Dark Mode)"}
+            title={
+              isDark
+                ? "Switch to Paper (Light Mode)"
+                : "Switch to Ink (Dark Mode)"
+            }
           >
             {isDark ? (
               // Ink droplet / Moon alternative representing Paper Mode
-              <svg className="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m12.728 12.728l.707.707M12 8a4 4 0 100 8 4 4 0 000-8z" />
+              <svg
+                className="w-5 h-5 text-accent"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m12.728 12.728l.707.707M12 8a4 4 0 100 8 4 4 0 000-8z"
+                />
               </svg>
             ) : (
               // Ink Bottle / droplet representing Ink Mode
-              <svg className="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+              <svg
+                className="w-5 h-5 text-accent"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+                />
               </svg>
             )}
           </button>
@@ -117,12 +147,34 @@ export default function Navbar() {
             className="w-9 h-9 rounded-lg border border-line bg-raised hover:bg-surface flex items-center justify-center text-muted hover:text-fg transition-all duration-300"
           >
             {isDark ? (
-              <svg className="w-4 h-4 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m12.728 12.728l.707.707M12 8a4 4 0 100 8 4 4 0 000-8z" />
+              <svg
+                className="w-4 h-4 text-accent"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m12.728 12.728l.707.707M12 8a4 4 0 100 8 4 4 0 000-8z"
+                />
               </svg>
             ) : (
-              <svg className="w-4 h-4 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+              <svg
+                className="w-4 h-4 text-accent"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+                />
               </svg>
             )}
           </button>
@@ -136,12 +188,32 @@ export default function Navbar() {
           >
             <span className="sr-only">Open main menu</span>
             {!isOpen ? (
-              <svg className="block h-5.5 w-5.5" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              <svg
+                className="block h-5.5 w-5.5"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
               </svg>
             ) : (
-              <svg className="block h-5.5 w-5.5" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+              <svg
+                className="block h-5.5 w-5.5"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
               </svg>
             )}
           </button>
@@ -150,7 +222,10 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-bg border-t border-line/30 mt-3 py-4 rounded-xl px-2 animate-fadeIn" id="mobile-menu">
+        <div
+          className="md:hidden bg-bg border-t border-line/30 mt-3 py-4 rounded-xl px-2 animate-fadeIn"
+          id="mobile-menu"
+        >
           <div className="space-y-1.5 px-2 pb-3 pt-2">
             {navLinks.map((link) => (
               <NavLink

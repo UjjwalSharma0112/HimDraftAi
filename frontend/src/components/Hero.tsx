@@ -21,7 +21,7 @@ export default function Hero() {
           </h1>
           
           <p className="text-lg text-muted max-w-xl leading-relaxed transition-colors duration-300">
-            HimShakti AI generates high-converting product copies, cultural stories, and SEO-optimized descriptions specifically designed for traditional Himalayan foods, organic honey, and high-altitude crops.
+            HimDraftAi generates high-converting product copies, cultural stories, and SEO-optimized descriptions specifically designed for traditional Himalayan foods, organic honey, and high-altitude crops.
           </p>
 
           <div className="flex flex-wrap gap-4 pt-4">
@@ -71,7 +71,7 @@ export default function Hero() {
                   <span className="w-2.5 h-2.5 rounded-full bg-muted/40" />
                   <span className="w-2.5 h-2.5 rounded-full bg-accent/70" />
                 </div>
-                <span className="text-[10px] text-faint font-mono">himshakti-ai-writer.v1</span>
+                <span className="text-[10px] text-faint font-mono">himdraft-ai-writer.v1</span>
               </div>
 
               {/* Form Input Mockup */}
