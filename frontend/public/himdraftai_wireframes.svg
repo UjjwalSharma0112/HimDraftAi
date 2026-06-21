@@ -1,0 +1,582 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12400 1450" width="12400" height="1450" style="background-color: #FFFFFF;">
+<g id="Home_Page">
+<rect x="0" y="0" width="1440" height="1100" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+<rect x="0" y="0" width="1440" height="70" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" />
+<rect x="50" y="18" width="36" height="36" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="6" ry="6" />
+<text x="60" y="41" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">H</text>
+<text x="98" y="41" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="bold" fill="#1F2937">HimDraftAI</text>
+<text x="350" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#111827">Home</text>
+<line x1="350" y1="46" x2="395" y2="46" stroke="#1F2937" stroke-width="2" />
+<text x="470" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6B7280">Dashboard</text>
+<text x="590" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6B7280">AI Generator</text>
+<text x="710" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6B7280">Settings</text>
+<rect x="1220" y="17" width="100" height="36" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1" rx="4" ry="4" />
+<text x="1270" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#374151" text-anchor="center">Log In</text>
+<rect x="1335" y="17" width="70" height="36" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="4" ry="4" />
+<text x="1370" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="center">Signup</text>
+<rect x="50" y="120" width="1340" height="440" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" rx="8" ry="8" />
+<text x="100" y="210" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="bold" fill="#111827">AI Product Listings For Himalayan Artisans</text>
+<text x="100" y="260" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#4B5563">Generate SEO-optimized product copy on Amazon, Flipkart, and Shopify in Traditional, Premium, &amp; Health tones.</text>
+<rect x="100" y="310" width="200" height="48" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="4" ry="4" />
+<text x="200" y="340.3333333333333" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="center">Get Started Free →</text>
+<text x="320" y="338" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">No credit card required. Built for local cottage industries.</text>
+<rect x="800" y="160" width="520" height="360" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="6" ry="6" />
+<rect x="800" y="160" width="520" height="40" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1" rx="6" ry="6" />
+<line x1="800" y1="200" x2="1320" y2="200" stroke="#E5E7EB" stroke-width="1" />
+<text x="820" y="185" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#6B7280">HimDraftAI Generator Mockup</text>
+<rect x="820" y="220" width="220" height="28" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" rx="4" ry="4" />
+<rect x="820" y="260" width="220" height="60" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" rx="4" ry="4" />
+<rect x="1060" y="220" width="240" height="200" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" rx="4" ry="4" />
+<line x1="1080" y1="260" x2="1280" y2="260" stroke="#D1D5DB" stroke-width="2" />
+<line x1="1080" y1="290" x2="1280" y2="290" stroke="#D1D5DB" stroke-width="2" />
+<line x1="1080" y1="320" x2="1200" y2="320" stroke="#D1D5DB" stroke-width="2" />
+<rect x="820" y="400" width="220" height="36" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="4" ry="4" />
+<text x="930" y="423" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="center">Generate Listing</text>
+<text x="50" y="620" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="bold" fill="#1F2937">Tailored features for Uttarakhand Food Processors</text>
+<text x="50" y="650" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#6B7280">Eliminate marketing overhead and craft beautiful listings matching global marketplace standards.</text>
+<rect x="50" y="690" width="310" height="200" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" rx="6" ry="6" />
+<rect x="74" y="714" width="40" height="40" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1" rx="20" ry="20" />
+<text x="94" y="739" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#4B5563" text-anchor="center">1</text>
+<text x="74" y="785" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="bold" fill="#1F2937">Local Heritage Tone</text>
+<text x="74" y="815" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#4B5563">Craft narratives highlighting organic, Himalayan-sourced, handpicked ingredients.</text>
+<rect x="385" y="690" width="310" height="200" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" rx="6" ry="6" />
+<rect x="409" y="714" width="40" height="40" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1" rx="20" ry="20" />
+<text x="429" y="739" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#4B5563" text-anchor="center">2</text>
+<text x="409" y="785" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="bold" fill="#1F2937">D2C &amp; Marketplace SEO</text>
+<text x="409" y="815" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#4B5563">Embedded keywords automatically optimized for search rankings on D2C/Amazon.</text>
+<rect x="720" y="690" width="310" height="200" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" rx="6" ry="6" />
+<rect x="744" y="714" width="40" height="40" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1" rx="20" ry="20" />
+<text x="764" y="739" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#4B5563" text-anchor="center">3</text>
+<text x="744" y="785" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="bold" fill="#1F2937">One-Click Copier</text>
+<text x="744" y="815" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#4B5563">Instantly copy structured listings formatted directly for e-commerce platforms.</text>
+<rect x="1055" y="690" width="310" height="200" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" rx="6" ry="6" />
+<rect x="1079" y="714" width="40" height="40" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1" rx="20" ry="20" />
+<text x="1099" y="739" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#4B5563" text-anchor="center">4</text>
+<text x="1079" y="785" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="bold" fill="#1F2937">Simple Grayscale UX</text>
+<text x="1079" y="815" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#4B5563">Clean, distraction-free interface optimized for entry-level computer operators.</text>
+<rect x="0" y="980" width="1440" height="120" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1" />
+<text x="50" y="1035" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">© 2026 HimDraftAI Uttarakhand. Rural Food Producer Enablement.</text>
+<text x="1150" y="1035" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">Privacy Policy</text>
+<text x="1270" y="1035" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">Terms of Service</text>
+<line x1="50" y1="1060" x2="1390" y2="1060" stroke="#E5E7EB" stroke-width="1" />
+</g>
+<g id="Login_Signup">
+<rect x="1540" y="0" width="1440" height="900" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+<rect x="1540" y="0" width="1440" height="70" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" />
+<rect x="1590" y="18" width="36" height="36" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="6" ry="6" />
+<text x="1600" y="41" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">H</text>
+<text x="1638" y="41" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="bold" fill="#1F2937">HimDraftAI</text>
+<text x="1890" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6B7280">Home</text>
+<text x="2010" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6B7280">Dashboard</text>
+<text x="2130" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6B7280">AI Generator</text>
+<text x="2250" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6B7280">Settings</text>
+<rect x="2760" y="17" width="100" height="36" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1" rx="4" ry="4" />
+<text x="2810" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#374151" text-anchor="center">Log In</text>
+<rect x="2875" y="17" width="70" height="36" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="4" ry="4" />
+<text x="2910" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="center">Signup</text>
+<rect x="2030" y="160" width="460" height="540" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" rx="8" ry="8" />
+<text x="2070" y="210" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="bold" fill="#111827">Log In to HimDraftAI</text>
+<text x="2070" y="240" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">Enter details to manage product descriptions</text>
+<text x="2070" y="294" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#4B5563">Business Email</text>
+<rect x="2070" y="300" width="380" height="44" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="2082" y="327" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">e.g., info@himshaktifoods.com</text>
+<text x="2070" y="379" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#4B5563">Password</text>
+<rect x="2070" y="385" width="380" height="44" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="2082" y="412" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">••••••••••••</text>
+<rect x="2070" y="450" width="16" height="16" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="2" ry="2" />
+<text x="2096" y="463" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#4B5563">Keep me signed in</text>
+<text x="2340" y="463" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#374151">Forgot Password?</text>
+<rect x="2070" y="495" width="380" height="44" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="4" ry="4" />
+<text x="2260" y="522.6666666666666" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="center">Sign In to Account</text>
+<line x1="2070" y1="570" x2="2450" y2="570" stroke="#E5E7EB" stroke-width="1" />
+<rect x="2225" y="561" width="70" height="18" fill="#F9FAFB" stroke="transparent" stroke-width="1" />
+<text x="2260" y="574" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#9CA3AF" text-anchor="center">or</text>
+<rect x="2070" y="595" width="380" height="44" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1" rx="4" ry="4" />
+<text x="2260" y="622.6666666666666" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#374151" text-anchor="center">Continue with Google</text>
+<text x="2260" y="670" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#374151" text-anchor="center">Don't have an account? Sign Up</text>
+<rect x="1540" y="780" width="1440" height="120" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1" />
+<text x="1590" y="835" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">© 2026 HimDraftAI Uttarakhand. Rural Food Producer Enablement.</text>
+<text x="2690" y="835" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">Privacy Policy</text>
+<text x="2810" y="835" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">Terms of Service</text>
+<line x1="1590" y1="860" x2="2930" y2="860" stroke="#E5E7EB" stroke-width="1" />
+</g>
+<g id="Dashboard_Page">
+<rect x="3080" y="0" width="1440" height="1000" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+<rect x="3080" y="0" width="1440" height="70" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" />
+<rect x="3130" y="18" width="36" height="36" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="6" ry="6" />
+<text x="3140" y="41" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">H</text>
+<text x="3178" y="41" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="bold" fill="#1F2937">HimDraftAI</text>
+<text x="3430" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6B7280">Home</text>
+<text x="3550" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#111827">Dashboard</text>
+<line x1="3550" y1="46" x2="3595" y2="46" stroke="#1F2937" stroke-width="2" />
+<text x="3670" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6B7280">AI Generator</text>
+<text x="3790" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6B7280">Settings</text>
+<rect x="4300" y="17" width="100" height="36" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1" rx="4" ry="4" />
+<text x="4350" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#374151" text-anchor="center">Log In</text>
+<rect x="4415" y="17" width="70" height="36" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="4" ry="4" />
+<text x="4450" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="center">Signup</text>
+<text x="3130" y="120" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="bold" fill="#1F2937">HimShakti Uttarakhand Unit</text>
+<text x="3130" y="145" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">Dashboard and active generation workflow overview.</text>
+<rect x="4230" y="110" width="240" height="44" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="4" ry="4" />
+<text x="4350" y="137.66666666666666" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="center">+ Generate Description</text>
+<rect x="3130" y="180" width="410" height="90" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" rx="6" ry="6" />
+<text x="3154" y="215" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#6B7280">Total Listings Generated</text>
+<text x="3154" y="248" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="bold" fill="#1F2937">42 listings</text>
+<rect x="3560" y="180" width="410" height="90" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" rx="6" ry="6" />
+<text x="3584" y="215" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#6B7280">Tone Popularity</text>
+<text x="3584" y="248" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="bold" fill="#1F2937">Traditional (54%)</text>
+<rect x="3990" y="180" width="410" height="90" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" rx="6" ry="6" />
+<text x="4014" y="215" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#6B7280">SEO Optimization Score</text>
+<text x="4014" y="248" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="bold" fill="#1F2937">88% Average</text>
+<text x="3130" y="318" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="bold" fill="#1F2937">Your Generated Copy History</text>
+<text x="3130" y="344" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#4B5563"></text>
+<rect x="3130" y="350" width="460" height="36" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="3142" y="373" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">🔍 Search past generations by product name...</text>
+<text x="3610" y="344" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#4B5563"></text>
+<rect x="3610" y="350" width="180" height="36" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="3622" y="373" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#1F2937">Sort by: Date Created</text>
+<polygon points="3766,366 3774,366 3770,371" fill="#6B7280" />
+<rect x="3130" y="410" width="1340" height="90" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" rx="6" ry="6" />
+<rect x="3150" y="435" width="40" height="40" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="3162" y="459" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="bold" fill="#4B5563">DOC</text>
+<text x="3210" y="448" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="bold" fill="#1F2937">Organic Rhododendron Squash</text>
+<text x="3210" y="470" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6B7280">Generated 2 hours ago</text>
+<rect x="3510" y="442" width="110" height="24" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1" rx="12" ry="12" />
+<text x="3565" y="458" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="bold" fill="#374151" text-anchor="center">Traditional</text>
+<text x="3640" y="460" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">Experience the pristine valleys of Uttarakhand in every sip of this handpicked Himalayan squash. Made with natural...</text>
+<rect x="4250" y="438" width="80" height="34" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1" rx="4" ry="4" />
+<text x="4290" y="460" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#374151" text-anchor="center">View Detail</text>
+<rect x="4340" y="438" width="60" height="34" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="4370" y="460" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#1F2937" text-anchor="center">Copy</text>
+<rect x="4410" y="438" width="40" height="34" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1" rx="4" ry="4" />
+<text x="4430" y="460" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#374151" text-anchor="center">🗑</text>
+<rect x="3130" y="515" width="1340" height="90" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" rx="6" ry="6" />
+<rect x="3150" y="540" width="40" height="40" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="3162" y="564" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="bold" fill="#4B5563">DOC</text>
+<text x="3210" y="553" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="bold" fill="#1F2937">Premium Badri Cow Ghee</text>
+<text x="3210" y="575" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6B7280">Generated 1 day ago</text>
+<rect x="3510" y="547" width="110" height="24" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1" rx="12" ry="12" />
+<text x="3565" y="563" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="bold" fill="#374151" text-anchor="center">Premium</text>
+<text x="3640" y="565" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">Crafted through traditional bilona methods in the high altitudes, this golden Badri ghee delivers unmatched purity...</text>
+<rect x="4250" y="543" width="80" height="34" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1" rx="4" ry="4" />
+<text x="4290" y="565" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#374151" text-anchor="center">View Detail</text>
+<rect x="4340" y="543" width="60" height="34" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="4370" y="565" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#1F2937" text-anchor="center">Copy</text>
+<rect x="4410" y="543" width="40" height="34" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1" rx="4" ry="4" />
+<text x="4430" y="565" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#374151" text-anchor="center">🗑</text>
+<rect x="3130" y="620" width="1340" height="90" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" rx="6" ry="6" />
+<rect x="3150" y="645" width="40" height="40" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="3162" y="669" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="bold" fill="#4B5563">DOC</text>
+<text x="3210" y="658" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="bold" fill="#1F2937">High-Altitude Finger Millet Flour</text>
+<text x="3210" y="680" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6B7280">Generated 3 days ago</text>
+<rect x="3510" y="652" width="110" height="24" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1" rx="12" ry="12" />
+<text x="3565" y="668" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="bold" fill="#374151" text-anchor="center">Health-Focused</text>
+<text x="3640" y="670" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">Gluten-free, highly nutritious Mandua flour stone-ground to perfection. Packed with fiber, iron, and traditional calcium...</text>
+<rect x="4250" y="648" width="80" height="34" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1" rx="4" ry="4" />
+<text x="4290" y="670" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#374151" text-anchor="center">View Detail</text>
+<rect x="4340" y="648" width="60" height="34" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="4370" y="670" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#1F2937" text-anchor="center">Copy</text>
+<rect x="4410" y="648" width="40" height="34" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1" rx="4" ry="4" />
+<text x="4430" y="670" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#374151" text-anchor="center">🗑</text>
+<rect x="3130" y="725" width="1340" height="90" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" rx="6" ry="6" />
+<rect x="3150" y="750" width="40" height="40" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="3162" y="774" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="bold" fill="#4B5563">DOC</text>
+<text x="3210" y="763" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="bold" fill="#1F2937">Pure Himalayan Multi-Floral Honey</text>
+<text x="3210" y="785" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6B7280">Generated 1 week ago</text>
+<rect x="3510" y="757" width="110" height="24" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1" rx="12" ry="12" />
+<text x="3565" y="773" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="bold" fill="#374151" text-anchor="center">Health-Focused</text>
+<text x="3640" y="775" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">100% raw honey sourced from local apiaries in Almora. Contains enzymes, natural antioxidants, and wild nectar...</text>
+<rect x="4250" y="753" width="80" height="34" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1" rx="4" ry="4" />
+<text x="4290" y="775" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#374151" text-anchor="center">View Detail</text>
+<rect x="4340" y="753" width="60" height="34" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="4370" y="775" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#1F2937" text-anchor="center">Copy</text>
+<rect x="4410" y="753" width="40" height="34" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1" rx="4" ry="4" />
+<text x="4430" y="775" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#374151" text-anchor="center">🗑</text>
+<text x="3800" y="875" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#4B5563" text-anchor="center">Showing 4 of 42 records.   &lt; Prev   [1]   2   3   Next &gt;</text>
+<rect x="3080" y="880" width="1440" height="120" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1" />
+<text x="3130" y="935" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">© 2026 HimDraftAI Uttarakhand. Rural Food Producer Enablement.</text>
+<text x="4230" y="935" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">Privacy Policy</text>
+<text x="4350" y="935" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">Terms of Service</text>
+<line x1="3130" y1="960" x2="4470" y2="960" stroke="#E5E7EB" stroke-width="1" />
+</g>
+<g id="AI_Generation_Page">
+<rect x="4620" y="0" width="1440" height="1300" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+<rect x="4620" y="0" width="1440" height="70" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" />
+<rect x="4670" y="18" width="36" height="36" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="6" ry="6" />
+<text x="4680" y="41" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">H</text>
+<text x="4718" y="41" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="bold" fill="#1F2937">HimDraftAI</text>
+<text x="4970" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6B7280">Home</text>
+<text x="5090" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6B7280">Dashboard</text>
+<text x="5210" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#111827">AI Generator</text>
+<line x1="5210" y1="46" x2="5255" y2="46" stroke="#1F2937" stroke-width="2" />
+<text x="5330" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6B7280">Settings</text>
+<rect x="5840" y="17" width="100" height="36" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1" rx="4" ry="4" />
+<text x="5890" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#374151" text-anchor="center">Log In</text>
+<rect x="5955" y="17" width="70" height="36" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="4" ry="4" />
+<text x="5990" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="center">Signup</text>
+<text x="4670" y="120" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="bold" fill="#1F2937">Generate New Product Description</text>
+<text x="4670" y="145" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">Provide product details. The AI will write custom SEO product copy optimized for D2C/Retail.</text>
+<rect x="4670" y="180" width="630" height="950" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" rx="8" ry="8" />
+<text x="4700" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="bold" fill="#1F2937">1. Product Specifications</text>
+<text x="4700" y="269" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#4B5563">Product Name (Required)</text>
+<rect x="4700" y="275" width="570" height="40" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="4712" y="300" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">e.g., Pure Himalayan Nettle Tea</text>
+<text x="4700" y="354" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#4B5563">Ingredients &amp; Origin (Required)</text>
+<rect x="4700" y="360" width="570" height="70" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="4712" y="382" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#9CA3AF">e.g., Hand-harvested stinging nettle leaves, Almora district, Uttarakhand high-altitudes.</text>
+<text x="4700" y="464" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#4B5563">Net Weight / Volume</text>
+<rect x="4700" y="470" width="570" height="40" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="4712" y="495" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">e.g., 100 grams</text>
+<text x="4700" y="549" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#4B5563">Key Product Features (One per line)</text>
+<rect x="4700" y="555" width="570" height="120" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="4712" y="577" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#9CA3AF">- 100% Organic &amp; caffeine-free
+- Rich in iron, antioxidants, and digestive enzymes
+- Sourced ethically by local self-help groups</text>
+<text x="4700" y="715" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#4B5563">Select Marketing &amp; Content Tone</text>
+<rect x="4700" y="730" width="180" height="65" fill="#F3F4F6" stroke="#1F2937" stroke-width="2" rx="6" ry="6" />
+<text x="4712" y="754" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#1F2937">Traditional</text>
+<text x="4712" y="776" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#6B7280">Local culture &amp; story</text>
+<rect x="4850" y="740" width="16" height="16" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="8" ry="8" />
+<text x="4858" y="751" font-family="system-ui, -apple-system, sans-serif" font-size="8" font-weight="bold" fill="#FFFFFF" text-anchor="center">✓</text>
+<rect x="4890" y="730" width="180" height="65" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="6" ry="6" />
+<text x="4902" y="754" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#1F2937">Premium</text>
+<text x="4902" y="776" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#6B7280">High-end artisan narrative</text>
+<rect x="5080" y="730" width="180" height="65" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="6" ry="6" />
+<text x="5092" y="754" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#1F2937">Health-Focused</text>
+<text x="5092" y="776" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#6B7280">Clinical/Nutrition focus</text>
+<text x="4700" y="825" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#4B5563">Target Search Keywords (SEO Boost)</text>
+<rect x="4700" y="845" width="105" height="26" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="13" ry="13" />
+<text x="4712" y="862" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#4B5563">+ organic nettle</text>
+<rect x="4814" y="845" width="105" height="26" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="13" ry="13" />
+<text x="4826" y="862" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#4B5563">+ himalayan organic tea</text>
+<rect x="4928" y="845" width="105" height="26" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="13" ry="13" />
+<text x="4940" y="862" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#4B5563">+ nettle tea bag</text>
+<rect x="5042" y="845" width="105" height="26" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="13" ry="13" />
+<text x="5054" y="862" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#4B5563">+ uttarakhand herbs</text>
+<rect x="5156" y="845" width="105" height="26" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="13" ry="13" />
+<text x="5168" y="862" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#4B5563">+ health tea</text>
+<rect x="4700" y="1010" width="570" height="48" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="4" ry="4" />
+<text x="4985" y="1040.3333333333333" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="center">✨ Generate SEO Product Description</text>
+<rect x="5380" y="180" width="630" height="950" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" rx="8" ry="8" />
+<text x="5410" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="bold" fill="#1F2937">2. AI Copy Output Panel</text>
+<rect x="5410" y="260" width="570" height="36" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<rect x="5412" y="262" width="280" height="32" fill="#FFFFFF" stroke="transparent" stroke-width="1" rx="4" ry="4" />
+<text x="5552" y="282" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#1F2937" text-anchor="center">Generated Listing Copy</text>
+<text x="5830" y="282" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#6B7280" text-anchor="center">SEO &amp; Keyword Checklist</text>
+<rect x="5410" y="320" width="570" height="650" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="5430" y="355" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="bold" fill="#1F2937">Title: Himalayan Organic Nettle Tea (Almora Region)</text>
+<line x1="5430" y1="370" x2="5960" y2="370" stroke="#E5E7EB" stroke-width="1" />
+<text x="5430" y="405" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#374151">Bullet Points (Amazon Ready):</text>
+<text x="5430" y="430" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#374151">• 100% PURE HIMALAYAN SOURCE: Handpicked in Almora, Uttarakhand high-altitudes.</text>
+<text x="5430" y="452" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#374151">• CAFFEINE-FREE ENERGY: Rich in minerals and iron to revitalise naturally.</text>
+<text x="5430" y="474" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#374151">• HERBAL TRADITION: Used in Uttarakhand communities as a cleansing infusion.</text>
+<text x="5430" y="520" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#374151">Long Description (Story-oriented):</text>
+<text x="5430" y="545" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#4B5563">Deep in the high-altitude forests of the Almora region, stinging nettle is more than just</text>
+<text x="5430" y="565" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#4B5563">a wild herb—it is a traditional wellness companion. Our Pure Himalayan Nettle Tea is</text>
+<text x="5430" y="585" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#4B5563">mindfully harvested by women's self-help groups. We dry the leaves slowly to capture the</text>
+<text x="5430" y="605" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#4B5563">true earthiness and natural calcium. Every sip tells the story of Uttarakhand's pristine hills.</text>
+<text x="5430" y="625" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#4B5563">Excellent as a hot brew or iced infusion. Supports sustainable local farming.</text>
+<line x1="5410" y1="910" x2="5980" y2="910" stroke="#E5E7EB" stroke-width="1" />
+<text x="5430" y="940" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#6B7280">Characters: 840   |   Words: 135   |   SEO Keyword Match: High</text>
+<rect x="5410" y="1010" width="200" height="48" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="5510" y="1039.6666666666667" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#1F2937" text-anchor="center">📋 Copy to Clipboard</text>
+<rect x="5625" y="1010" width="160" height="48" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1" rx="4" ry="4" />
+<text x="5705" y="1039.6666666666667" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#374151" text-anchor="center">Edit Copy</text>
+<rect x="5800" y="1010" width="180" height="48" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1" rx="4" ry="4" />
+<text x="5890" y="1039.6666666666667" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#374151" text-anchor="center">🔄 Regenerate</text>
+<rect x="4620" y="1180" width="1440" height="120" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1" />
+<text x="4670" y="1235" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">© 2026 HimDraftAI Uttarakhand. Rural Food Producer Enablement.</text>
+<text x="5770" y="1235" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">Privacy Policy</text>
+<text x="5890" y="1235" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">Terms of Service</text>
+<line x1="4670" y1="1260" x2="6010" y2="1260" stroke="#E5E7EB" stroke-width="1" />
+</g>
+<g id="Detail_Page">
+<rect x="6160" y="0" width="1440" height="950" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+<rect x="6160" y="0" width="1440" height="70" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" />
+<rect x="6210" y="18" width="36" height="36" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="6" ry="6" />
+<text x="6220" y="41" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">H</text>
+<text x="6258" y="41" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="bold" fill="#1F2937">HimDraftAI</text>
+<text x="6510" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6B7280">Home</text>
+<text x="6630" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#111827">Dashboard</text>
+<line x1="6630" y1="46" x2="6675" y2="46" stroke="#1F2937" stroke-width="2" />
+<text x="6750" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6B7280">AI Generator</text>
+<text x="6870" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6B7280">Settings</text>
+<rect x="7380" y="17" width="100" height="36" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1" rx="4" ry="4" />
+<text x="7430" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#374151" text-anchor="center">Log In</text>
+<rect x="7495" y="17" width="70" height="36" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="4" ry="4" />
+<text x="7530" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="center">Signup</text>
+<text x="6210" y="115" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#4B5563">← Back to Description History</text>
+<line x1="6210" y1="125" x2="6400" y2="125" stroke="#4B5563" stroke-width="1" />
+<text x="6210" y="175" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="bold" fill="#1F2937">Organic Rhododendron Squash</text>
+<text x="6210" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">Created on 2026-06-20 by Almora Unit. Assigned Tone: Traditional.</text>
+<rect x="6210" y="240" width="480" height="550" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" rx="8" ry="8" />
+<text x="6240" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="bold" fill="#1F2937">Original Spec Inputs</text>
+<text x="6240" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#6B7280">Product Name</text>
+<text x="6240" y="338" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#1F2937">Organic Rhododendron Squash</text>
+<text x="6240" y="425" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#6B7280">Ingredients</text>
+<text x="6240" y="443" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#1F2937">Fresh Rhododendron flowers, lemon, raw sugar</text>
+<text x="6240" y="530" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#6B7280">Net Weight</text>
+<text x="6240" y="548" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#1F2937">750ml bottle</text>
+<text x="6240" y="635" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#6B7280">Key Features</text>
+<text x="6240" y="653" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#1F2937">- Sourced ethically by local mountain foragers</text>
+<text x="6240" y="669" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#1F2937">- Free from synthetic colors &amp; thickeners</text>
+<text x="6240" y="685" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#1F2937">- Concentrated floral nectar rich in vitamins</text>
+<rect x="6740" y="240" width="780" height="550" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" rx="8" ry="8" />
+<text x="6770" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="bold" fill="#1F2937">Approved Listing Text</text>
+<rect x="6770" y="310" width="720" height="390" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="6790" y="345" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#1F2937">Premium Organic Himalayan Rhododendron Flower Squash (750ml)</text>
+<line x1="6790" y1="358" x2="7470" y2="358" stroke="#E5E7EB" stroke-width="1" />
+<text x="6790" y="385" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#374151">Bring home the wellness secrets of the Himalayas with our natural Rhododendron Squash.</text>
+<text x="6790" y="405" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#374151">Known locally as Buransh, this high-altitude flower has been hand-selected and crafted</text>
+<text x="6790" y="425" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#374151">using pure mountain nectar.</text>
+<text x="6790" y="445" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#374151"></text>
+<text x="6790" y="465" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#374151">• HEALTHY &amp; NUTRITIOUS: Natural cooling agent, rich in vitamin C and antioxidants.</text>
+<text x="6790" y="485" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#374151">• TRADITIONAL RECEIPT: Preserves native Uttarakhand heritage in every bottle.</text>
+<text x="6790" y="505" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#374151">• ETHICAL COMMERCE: Directly supports cottage scale Himalayan micro-businesses.</text>
+<text x="6790" y="525" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#374151"></text>
+<text x="6790" y="545" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#374151">Use 1 part squash to 4 parts chilled water or soda. Blend to enjoy!</text>
+<rect x="6770" y="720" width="180" height="44" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="4" ry="4" />
+<text x="6860" y="747.6666666666666" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="center">📋 Copy Approved Copy</text>
+<rect x="6965" y="720" width="150" height="44" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1" rx="4" ry="4" />
+<text x="7040" y="747.6666666666666" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#374151" text-anchor="center">Edit Copy</text>
+<rect x="7130" y="720" width="180" height="44" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1" rx="4" ry="4" />
+<text x="7220" y="747.6666666666666" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#374151" text-anchor="center">Export as CSV</text>
+<rect x="7325" y="720" width="165" height="44" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1" rx="4" ry="4" />
+<text x="7407.5" y="747.6666666666666" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#374151" text-anchor="center">🗑 Delete Record</text>
+<rect x="6160" y="830" width="1440" height="120" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1" />
+<text x="6210" y="885" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">© 2026 HimDraftAI Uttarakhand. Rural Food Producer Enablement.</text>
+<text x="7310" y="885" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">Privacy Policy</text>
+<text x="7430" y="885" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">Terms of Service</text>
+<line x1="6210" y1="910" x2="7550" y2="910" stroke="#E5E7EB" stroke-width="1" />
+</g>
+<g id="Settings_Page">
+<rect x="7700" y="0" width="1440" height="950" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+<rect x="7700" y="0" width="1440" height="70" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" />
+<rect x="7750" y="18" width="36" height="36" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="6" ry="6" />
+<text x="7760" y="41" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">H</text>
+<text x="7798" y="41" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="bold" fill="#1F2937">HimDraftAI</text>
+<text x="8050" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6B7280">Home</text>
+<text x="8170" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6B7280">Dashboard</text>
+<text x="8290" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6B7280">AI Generator</text>
+<text x="8410" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#111827">Settings</text>
+<line x1="8410" y1="46" x2="8455" y2="46" stroke="#1F2937" stroke-width="2" />
+<rect x="8920" y="17" width="100" height="36" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1" rx="4" ry="4" />
+<text x="8970" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#374151" text-anchor="center">Log In</text>
+<rect x="9035" y="17" width="70" height="36" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="4" ry="4" />
+<text x="9070" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="center">Signup</text>
+<text x="7750" y="120" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="bold" fill="#1F2937">Workspace Settings</text>
+<text x="7750" y="145" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">Manage user preferences, organization, and API tokens.</text>
+<rect x="7750" y="190" width="280" height="600" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" rx="8" ry="8" />
+<rect x="7750" y="210" width="280" height="42" fill="#E5E7EB" stroke="transparent" stroke-width="1" />
+<line x1="7750" y1="210" x2="7750" y2="252" stroke="#1F2937" stroke-width="3" />
+<text x="7774" y="236" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#111827">User Profile</text>
+<text x="7774" y="286" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#4B5563">Organization</text>
+<text x="7774" y="336" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#4B5563">Integrations &amp; API</text>
+<text x="7774" y="386" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#4B5563">Billing Settings</text>
+<rect x="8070" y="190" width="980" height="600" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" rx="8" ry="8" />
+<text x="8110" y="235" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="bold" fill="#1F2937">User Profile Information</text>
+<text x="8110" y="284" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#4B5563">Full Name</text>
+<rect x="8110" y="290" width="420" height="38" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="8122" y="314" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#1F2937">HimShakti Uttarakhand Admin</text>
+<text x="8560" y="284" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#4B5563">Job Title / Role</text>
+<rect x="8560" y="290" width="420" height="38" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="8572" y="314" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#1F2937">Farming Union Organizer</text>
+<text x="8110" y="369" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#4B5563">Registered Email Address</text>
+<rect x="8110" y="375" width="870" height="38" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="8122" y="399" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#1F2937">admin@himshaktisociety.org</text>
+<text x="8110" y="445" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#4B5563">Application Visual Interface (Theme Preferences)</text>
+<rect x="8110" y="465" width="420" height="65" fill="#FFFFFF" stroke="#1F2937" stroke-width="2" rx="6" ry="6" />
+<text x="8126" y="489" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#1F2937">Light Grayscale UI</text>
+<text x="8126" y="511" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6B7280">Optimal for indoor lighting &amp; projectors</text>
+<rect x="8490" y="475" width="16" height="16" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="8" ry="8" />
+<text x="8498" y="486" font-family="system-ui, -apple-system, sans-serif" font-size="8" font-weight="bold" fill="#FFFFFF" text-anchor="center">✓</text>
+<rect x="8545" y="465" width="420" height="65" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="1" rx="6" ry="6" />
+<text x="8561" y="489" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#1F2937">High Contrast Dark</text>
+<text x="8561" y="511" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6B7280">Easier on eyes in low light sheds</text>
+<rect x="8110" y="690" width="200" height="44" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="4" ry="4" />
+<text x="8210" y="717.6666666666666" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="center">Save Workspace Preferences</text>
+<rect x="7700" y="830" width="1440" height="120" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1" />
+<text x="7750" y="885" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">© 2026 HimDraftAI Uttarakhand. Rural Food Producer Enablement.</text>
+<text x="8850" y="885" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">Privacy Policy</text>
+<text x="8970" y="885" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">Terms of Service</text>
+<line x1="7750" y1="910" x2="9090" y2="910" stroke="#E5E7EB" stroke-width="1" />
+</g>
+<g id="Component_Library">
+<rect x="9240" y="0" width="1440" height="1400" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+<rect x="9240" y="0" width="1440" height="70" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" />
+<rect x="9290" y="18" width="36" height="36" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="6" ry="6" />
+<text x="9300" y="41" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">H</text>
+<text x="9338" y="41" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="bold" fill="#1F2937">HimDraftAI</text>
+<text x="9590" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6B7280">Home</text>
+<text x="9710" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6B7280">Dashboard</text>
+<text x="9830" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6B7280">AI Generator</text>
+<text x="9950" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6B7280">Settings</text>
+<rect x="10460" y="17" width="100" height="36" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1" rx="4" ry="4" />
+<text x="10510" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#374151" text-anchor="center">Log In</text>
+<rect x="10575" y="17" width="70" height="36" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="4" ry="4" />
+<text x="10610" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="center">Signup</text>
+<text x="9290" y="115" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="bold" fill="#1F2937">HimDraftAI Grayscale Component Library</text>
+<text x="9290" y="140" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">Reusable low-fidelity design system library used across web interfaces.</text>
+<line x1="9290" y1="165" x2="10630" y2="165" stroke="#E5E7EB" stroke-width="1" />
+<text x="9290" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="bold" fill="#1F2937">1. BUTTON COMPONENT VARIATIONS</text>
+<text x="9290" y="240" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6B7280">Interactive clickable element states</text>
+<rect x="9640" y="195" width="160" height="40" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="4" ry="4" />
+<text x="9720" y="220.66666666666666" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="center">Primary</text>
+<rect x="9820" y="195" width="160" height="40" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="9900" y="220.66666666666666" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#1F2937" text-anchor="center">Secondary</text>
+<rect x="10000" y="195" width="160" height="40" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1" rx="4" ry="4" />
+<text x="10080" y="220.66666666666666" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#374151" text-anchor="center">Outline</text>
+<rect x="10180" y="195" width="160" height="40" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1" rx="4" ry="4" />
+<text x="10260" y="220.66666666666666" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#9CA3AF" text-anchor="center">Disabled</text>
+<rect x="9640" y="260" width="80" height="28" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="4" ry="4" />
+<text x="9680" y="279" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="center">Small</text>
+<rect x="9740" y="255" width="120" height="36" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="4" ry="4" />
+<text x="9800" y="278.6666666666667" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="center">Medium</text>
+<rect x="9880" y="245" width="180" height="48" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="4" ry="4" />
+<text x="9970" y="275.3333333333333" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="center">Large Call-to-action</text>
+<line x1="9290" y1="320" x2="10630" y2="320" stroke="#E5E7EB" stroke-width="1" />
+<text x="9290" y="375" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="bold" fill="#1F2937">2. FORM INPUT FIELDS</text>
+<text x="9290" y="395" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6B7280">Standard layout, active entries, and alerts</text>
+<text x="9640" y="344" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#4B5563">Label Header</text>
+<rect x="9640" y="350" width="280" height="38" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="9652" y="374" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">Placeholder value...</text>
+<text x="9940" y="344" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#4B5563">Label Header (Active State)</text>
+<rect x="9940" y="350" width="280" height="38" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="9952" y="374" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#1F2937">User entered text here</text>
+<text x="10240" y="344" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#4B5563">Label Header (Error State)</text>
+<rect x="10240" y="350" width="280" height="38" fill="#FFFFFF" stroke="#EF4444" stroke-width="1" rx="4" ry="4" />
+<text x="10252" y="374" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#1F2937">Invalid email format</text>
+<text x="10240" y="402" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#EF4444">The business email format is incorrect.</text>
+<line x1="9290" y1="450" x2="10630" y2="450" stroke="#E5E7EB" stroke-width="1" />
+<text x="9290" y="535" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="bold" fill="#1F2937">3. DIALOG / MODAL PANEL</text>
+<text x="9290" y="555" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6B7280">Context overlay window</text>
+<rect x="9640" y="485" width="680" height="220" fill="#F9FAFB" stroke="#D1D5DB" stroke-width="1" rx="8" ry="8" />
+<rect x="9640" y="485" width="680" height="45" fill="#E5E7EB" stroke="#E5E7EB" stroke-width="1" rx="8" ry="8" />
+<text x="9660" y="512" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#1F2937">Dialog Modal Title Alert</text>
+<text x="10290" y="512" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#6B7280" text-anchor="center">✕</text>
+<line x1="9640" y1="530" x2="10320" y2="530" stroke="#E5E7EB" stroke-width="1" />
+<text x="9660" y="565" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151">This is a modal popup window representation. We use this layout to confirm</text>
+<text x="9660" y="585" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#374151">destructive actions (e.g. deleting generated listings) or verifying updates.</text>
+<rect x="10040" y="640" width="120" height="36" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1" rx="4" ry="4" />
+<text x="10100" y="663" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#374151" text-anchor="center">Cancel</text>
+<rect x="10175" y="640" width="120" height="36" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="4" ry="4" />
+<text x="10235" y="663" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="center">Confirm Action</text>
+<line x1="9290" y1="735" x2="10630" y2="735" stroke="#E5E7EB" stroke-width="1" />
+<text x="9290" y="795" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="bold" fill="#1F2937">4. TOAST NOTIFICATIONS</text>
+<text x="9290" y="815" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6B7280">Transient popup feedback</text>
+<rect x="9640" y="770" width="380" height="50" fill="#F9FAFB" stroke="#10B981" stroke-width="2" rx="4" ry="4" />
+<rect x="9652" y="785" width="20" height="20" fill="#D1FAE5" stroke="transparent" stroke-width="1" rx="10" ry="10" />
+<text x="9662" y="799" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="bold" fill="#059669" text-anchor="center">✓</text>
+<text x="9688" y="799" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#1F2937">Listing copied to clipboard successfully!</text>
+<rect x="10060" y="770" width="380" height="50" fill="#F9FAFB" stroke="#EF4444" stroke-width="2" rx="4" ry="4" />
+<rect x="10072" y="785" width="20" height="20" fill="#FEE2E2" stroke="transparent" stroke-width="1" rx="10" ry="10" />
+<text x="10082" y="799" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="bold" fill="#DC2626" text-anchor="center">✕</text>
+<text x="10108" y="799" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#1F2937">Failed to connect to Gemini API. Retry.</text>
+<line x1="9290" y1="845" x2="10630" y2="845" stroke="#E5E7EB" stroke-width="1" />
+<text x="9290" y="910" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="bold" fill="#1F2937">5. LOADERS &amp; SKELETON SHAPES</text>
+<text x="9290" y="930" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6B7280">Transition loading states</text>
+<circle cx="9660" cy="915" r="15" fill="none" stroke="#E5E7EB" stroke-width="3" />
+<path d="M 9660 900 A 15 15 0 0 1 9675 915" fill="none" stroke="#1F2937" stroke-width="3" stroke-linecap="round" />
+<text x="9690" y="920" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#4B5563">Generating product copy...</text>
+<rect x="9940" y="875" width="380" height="110" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" rx="6" ry="6" />
+<rect x="9960" y="895" width="150" height="16" fill="#E5E7EB" stroke="transparent" stroke-width="1" rx="2" ry="2" />
+<rect x="9960" y="921" width="340" height="10" fill="#F3F4F6" stroke="transparent" stroke-width="1" rx="2" ry="2" />
+<rect x="9960" y="939" width="300" height="10" fill="#F3F4F6" stroke="transparent" stroke-width="1" rx="2" ry="2" />
+<rect x="9960" y="957" width="120" height="10" fill="#F3F4F6" stroke="transparent" stroke-width="1" rx="2" ry="2" />
+<rect x="9240" y="1280" width="1440" height="120" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1" />
+<text x="9290" y="1335" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">© 2026 HimDraftAI Uttarakhand. Rural Food Producer Enablement.</text>
+<text x="10390" y="1335" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">Privacy Policy</text>
+<text x="10510" y="1335" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">Terms of Service</text>
+<line x1="9290" y1="1360" x2="10630" y2="1360" stroke="#E5E7EB" stroke-width="1" />
+</g>
+<g id="Responsive_Layouts">
+<rect x="10780" y="0" width="1440" height="1400" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+<rect x="10780" y="0" width="1440" height="70" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" />
+<rect x="10830" y="18" width="36" height="36" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="6" ry="6" />
+<text x="10840" y="41" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">H</text>
+<text x="10878" y="41" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="bold" fill="#1F2937">HimDraftAI</text>
+<text x="11130" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6B7280">Home</text>
+<text x="11250" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6B7280">Dashboard</text>
+<text x="11370" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6B7280">AI Generator</text>
+<text x="11490" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6B7280">Settings</text>
+<rect x="12000" y="17" width="100" height="36" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1" rx="4" ry="4" />
+<text x="12050" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#374151" text-anchor="center">Log In</text>
+<rect x="12115" y="17" width="70" height="36" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="4" ry="4" />
+<text x="12150" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="center">Signup</text>
+<text x="10830" y="115" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="bold" fill="#1F2937">Responsive Layout System Demonstration</text>
+<text x="10830" y="140" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">Collapsing grid mechanics and stack behavior of the AI Generation Screen.</text>
+<line x1="10830" y1="165" x2="12170" y2="165" stroke="#E5E7EB" stroke-width="1" />
+<text x="10930" y="185" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#1F2937">Mobile Layout (375px wide)</text>
+<rect x="10930" y="200" width="375" height="1100" fill="#FFFFFF" stroke="#1F2937" stroke-width="2" rx="8" ry="8" />
+<rect x="10930" y="200" width="375" height="50" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" />
+<text x="10950" y="230" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#1F2937">HimDraftAI</text>
+<line x1="11260" y1="220" x2="11280" y2="220" stroke="#374151" stroke-width="2" />
+<line x1="11260" y1="225" x2="11280" y2="225" stroke="#374151" stroke-width="2" />
+<line x1="11260" y1="230" x2="11280" y2="230" stroke="#374151" stroke-width="2" />
+<text x="10950" y="290" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="bold" fill="#1F2937">Generate Description</text>
+<text x="10950" y="339" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#4B5563">Product Name (Required)</text>
+<rect x="10950" y="345" width="335" height="36" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="10962" y="368" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#1F2937">Pure Nettle Tea</text>
+<text x="10950" y="409" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#4B5563">Ingredients &amp; Origin</text>
+<rect x="10950" y="415" width="335" height="60" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="10962" y="437" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#1F2937">Nettle leaves, Almora</text>
+<text x="10950" y="504" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#4B5563">Marketing Tone</text>
+<rect x="10950" y="510" width="335" height="36" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="10962" y="533" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#1F2937">Traditional</text>
+<polygon points="11261,526 11269,526 11265,531" fill="#6B7280" />
+<rect x="10950" y="575" width="335" height="40" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="4" ry="4" />
+<text x="11117.5" y="600.6666666666666" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="center">Generate Description</text>
+<text x="10950" y="650" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#1F2937">Output Preview</text>
+<rect x="10950" y="675" width="335" height="520" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" rx="4" ry="4" />
+<rect x="10966" y="705" width="303" height="16" fill="#E5E7EB" stroke="transparent" stroke-width="1" rx="2" ry="2" />
+<rect x="10966" y="735" width="303" height="10" fill="#F3F4F6" stroke="transparent" stroke-width="1" rx="2" ry="2" />
+<rect x="10966" y="755" width="303" height="10" fill="#F3F4F6" stroke="transparent" stroke-width="1" rx="2" ry="2" />
+<rect x="10966" y="775" width="200" height="10" fill="#F3F4F6" stroke="transparent" stroke-width="1" rx="2" ry="2" />
+<rect x="10966" y="1040" width="271" height="38" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="11101.5" y="1064.6666666666667" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#1F2937" text-anchor="center">📋 Copy to Clipboard</text>
+<rect x="10966" y="1090" width="271" height="38" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1" rx="4" ry="4" />
+<text x="11101.5" y="1114.6666666666667" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#374151" text-anchor="center">Regenerate</text>
+<rect x="10930" y="1240" width="375" height="60" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1" />
+<text x="10950" y="1275" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#6B7280">© 2026 HimDraftAI Uttarakhand</text>
+<text x="11380" y="185" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#1F2937">Tablet Layout (768px wide)</text>
+<rect x="11380" y="200" width="768" height="1100" fill="#FFFFFF" stroke="#1F2937" stroke-width="2" rx="8" ry="8" />
+<rect x="11380" y="200" width="768" height="60" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" />
+<text x="11410" y="236" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="bold" fill="#1F2937">HimDraftAI</text>
+<text x="11600" y="236" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#1F2937">Home</text>
+<text x="11670" y="236" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6B7280">Dashboard</text>
+<text x="11760" y="236" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6B7280">AI Generator</text>
+<rect x="12020" y="213" width="90" height="34" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1" rx="4" ry="4" />
+<text x="12065" y="235" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#374151" text-anchor="center">Log In</text>
+<text x="11410" y="300" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#1F2937">AI Generator</text>
+<text x="11410" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6B7280">Input specifications and output stack side-by-side at 768px with slimmer margins.</text>
+<rect x="11410" y="350" width="334" height="830" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" rx="6" ry="6" />
+<text x="11430" y="385" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#1F2937">1. Specifications</text>
+<text x="11430" y="424" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#4B5563">Product Name</text>
+<rect x="11430" y="430" width="294" height="36" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="11442" y="453" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">Organic Squash</text>
+<text x="11430" y="489" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#4B5563">Ingredients</text>
+<rect x="11430" y="495" width="294" height="70" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="11442" y="517" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#9CA3AF">Rhododendron petals, Almora</text>
+<text x="11430" y="589" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#4B5563">Content Tone</text>
+<rect x="11430" y="595" width="294" height="36" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="11442" y="618" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#1F2937">Traditional</text>
+<polygon points="11700,611 11708,611 11704,616" fill="#6B7280" />
+<text x="11430" y="654" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#4B5563">Product Features</text>
+<rect x="11430" y="660" width="294" height="80" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="11442" y="682" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#9CA3AF">- Ethical Sourcing
+- 100% natural flower squash</text>
+<rect x="11430" y="1110" width="294" height="42" fill="#1F2937" stroke="#1F2937" stroke-width="1" rx="4" ry="4" />
+<text x="11577" y="1136.6666666666667" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="center">✨ Generate Description</text>
+<rect x="11784" y="350" width="334" height="830" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" rx="6" ry="6" />
+<text x="11804" y="385" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#1F2937">2. Generated Output</text>
+<rect x="11804" y="415" width="294" height="610" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="11816" y="445" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="bold" fill="#1F2937">Title: Organic Himalayan Rhododendron Squash</text>
+<line x1="11816" y1="458" x2="12082" y2="458" stroke="#E5E7EB" stroke-width="1" />
+<text x="11816" y="485" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#374151">Natural cooling agent handcrafted with high-altitude</text>
+<text x="11816" y="505" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#374151">flower petals. Directly benefits local hill farmers.</text>
+<rect x="11804" y="1110" width="294" height="42" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1" rx="4" ry="4" />
+<text x="11951" y="1136.6666666666667" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#1F2937" text-anchor="center">📋 Copy Approved Text</text>
+<rect x="11380" y="1220" width="768" height="80" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1" />
+<text x="11410" y="1265" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6B7280">© 2026 HimDraftAI Uttarakhand. All rights reserved.</text>
+</g>
+</svg>
