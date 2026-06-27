@@ -1,16 +1,9 @@
 import express from "express";
 import cors from "cors";
-
+import productRouter from "./routes/product";
 const app = express();
 
 app.use(cors());
 app.use(express.json());
-console.log("Hllo");
-app.get("/", (_req, res) => {
-  console.log("asdas");
-  res.json({
-    message: "Backend running",
-  });
-});
-
+app.use("/api/descriptions", productRouter);
 export default app;

@@ -1,16 +1,7 @@
-import React, { useEffect } from "react";
+import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import Button from "./Button";
 
-/**
- * Props for the Modal component.
- * @typedef {Object} ModalProps
- * @property {boolean} isOpen - Whether the modal is visible.
- * @property {() => void} onClose - Callback to close the modal.
- * @property {string} title - The title of the modal shown at the top.
- * @property {React.ReactNode} children - The main content of the modal.
- * @property {React.ReactNode} [footer] - Optional footer content (e.g. action buttons).
- * @property {string} [className=''] - Extra classes for the modal container.
- */
 export interface ModalProps {
   isOpen: boolean;
   onClose: () => void;
@@ -28,7 +19,12 @@ export const Modal: React.FC<ModalProps> = ({
   footer,
   className = "",
 }) => {
-  // Handle escape key to close modal
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
   useEffect(() => {
     const handleEscape = (e: KeyboardEvent) => {
       if (e.key === "Escape") {
@@ -47,30 +43,32 @@ export const Modal: React.FC<ModalProps> = ({
     };
   }, [isOpen, onClose]);
 
-  if (!isOpen) return null;
+  if (!isOpen || !mounted) return null;
 
-  return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
-      {/* Backdrop with flat overlay */}
+  const modalContent = (
+    <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4 sm:p-6 overflow-hidden">
+      {/* Backdrop covering the entire viewport including sidebar & navbar */}
       <div
-        className="fixed inset-0 bg-black/60 dark:bg-black/80 transition-opacity duration-300"
+        className="fixed inset-0 bg-black/70 dark:bg-black/85 backdrop-blur-xs transition-opacity duration-300 z-[9999]"
         onClick={onClose}
+        aria-hidden="true"
       />
 
-      {/* Modal Container: Grayscale containers, outline border, flat, sharp corners */}
+      {/* Centered Modal Box */}
       <div
-        className={`relative bg-container-bg border border-outline-border w-full max-w-lg rounded-[4px] flex flex-col z-10 transition-transform duration-300 max-h-[90vh] overflow-hidden ${className}`}
+        className={`relative bg-container-bg border border-outline-border w-full max-w-xl rounded-[4px] flex flex-col z-[10000] shadow-2xl transition-all duration-300 max-h-[85vh] overflow-hidden ${className}`}
         role="dialog"
         aria-modal="true"
+        aria-labelledby="modal-title"
       >
-        {/* Modal Header */}
-        <div className="flex items-center justify-between px-6 py-4 border-b border-outline-border">
-          <h3 className="text-base font-sans font-bold text-primary-text uppercase tracking-wider">
+        {/* Modal Header (Fixed top) */}
+        <div className="flex items-center justify-between px-6 py-4 border-b border-outline-border flex-shrink-0 bg-container-bg">
+          <h3 id="modal-title" className="text-sm sm:text-base font-sans font-bold text-primary-text uppercase tracking-wider">
             {title}
           </h3>
           <button
             onClick={onClose}
-            className="text-secondary-text hover:text-primary-text transition-colors duration-200 cursor-pointer p-1"
+            className="text-secondary-text hover:text-primary-text transition-colors duration-200 cursor-pointer p-1 rounded hover:bg-surface-bg"
             aria-label="Close modal"
           >
             <svg
@@ -78,7 +76,6 @@ export const Modal: React.FC<ModalProps> = ({
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
             >
               <path
                 strokeLinecap="round"
@@ -90,26 +87,26 @@ export const Modal: React.FC<ModalProps> = ({
           </button>
         </div>
 
-        {/* Modal Body */}
-        <div className="flex-1 overflow-y-auto px-6 py-6 text-sm font-sans text-primary-text/90">
+        {/* Modal Body (Scrollable content area) */}
+        <div className="flex-1 overflow-y-auto px-6 py-6 text-xs sm:text-sm font-sans text-primary-text/90">
           {children}
         </div>
 
-        {/* Modal Footer */}
-        {footer ? (
-          <div className="px-6 py-4 bg-surface-bg border-t border-outline-border flex justify-end gap-3">
-            {footer}
-          </div>
-        ) : (
-          <div className="px-6 py-4 bg-surface-bg border-t border-outline-border flex justify-end">
+        {/* Modal Footer (Fixed bottom) */}
+        <div className="px-6 py-4 bg-surface-bg border-t border-outline-border flex-shrink-0 flex items-center justify-end gap-3">
+          {footer ? (
+            footer
+          ) : (
             <Button variant="outline" onClick={onClose}>
               Close
             </Button>
-          </div>
-        )}
+          )}
+        </div>
       </div>
     </div>
   );
+
+  return createPortal(modalContent, document.body);
 };
 
 export default Modal;

@@ -12,3 +12,6 @@ export * from "./Toast";
 
 export { default as Loader } from "./Loader";
 export * from "./Loader";
+
+export { default as ConfirmModal } from "./ConfirmModal";
+export * from "./ConfirmModal";
