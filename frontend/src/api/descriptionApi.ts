@@ -2,9 +2,8 @@ import { apiRequest } from "./client";
 import type { ProductDescription, CreateDescriptionPayload, UpdateDescriptionPayload } from "../types/description";
 
 export const descriptionApi = {
-  // GET /api/descriptions/
   getAll(): Promise<ProductDescription[]> {
-    return apiRequest<ProductDescription[]>("/descriptions/");
+    return apiRequest<ProductDescription[]>("/descriptions");
   },
 
   // GET /api/descriptions/search?q={query}
