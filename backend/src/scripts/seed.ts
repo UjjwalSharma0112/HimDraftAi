@@ -1,6 +1,8 @@
 import dotenv from "dotenv";
 import mongoose from "mongoose";
 
+import bcrypt from "bcrypt";
+
 import User from "../models/User";
 import Description from "../models/Description";
 //todo fix for all
@@ -15,18 +17,21 @@ const seed = async () => {
     await User.deleteMany({});
     await Description.deleteMany({});
 
+    // Hash dummy password using bcrypt
+    const passwordHash = await bcrypt.hash("password123", 10);
+
     // Create users
     const users = await User.insertMany([
       {
         name: "Ujjwal Sharma",
         email: "ujjwal@example.com",
-        passwordHash: "dummyhash123",
+        passwordHash,
         provider: "local",
       },
       {
         name: "HimShakti Admin",
         email: "admin@himshakti.com",
-        passwordHash: "dummyhash123",
+        passwordHash,
         provider: "local",
       },
     ]);

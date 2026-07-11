@@ -1,5 +1,6 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
+import { useAuth } from "../../context/AuthContext";
 
 export interface HeaderProps {
   onOpenMobileSidebar: () => void;
@@ -9,6 +10,8 @@ export const Header: React.FC<HeaderProps> = ({
   onOpenMobileSidebar,
 }) => {
   const location = useLocation();
+  const navigate = useNavigate();
+  const { user, logout } = useAuth();
 
   const getTitle = () => {
     const path = location.pathname;
@@ -16,6 +19,20 @@ export const Header: React.FC<HeaderProps> = ({
     if (path.startsWith("/detail")) return "Description Details";
     if (path.startsWith("/settings")) return "Workspace Configuration";
     return "Workspace Dashboard";
+  };
+
+  const handleLogout = () => {
+    logout();
+    navigate("/login");
+  };
+
+  const getInitials = () => {
+    if (!user || !user.name) return "U";
+    const parts = user.name.split(" ");
+    if (parts.length > 1) {
+      return (parts[0][0] + parts[1][0]).toUpperCase();
+    }
+    return user.name.substring(0, 2).toUpperCase();
   };
 
   return (
@@ -34,10 +51,22 @@ export const Header: React.FC<HeaderProps> = ({
         </h2>
       </div>
 
-      <div className="flex items-center gap-4">
-        <div className="w-8 h-8 rounded-full bg-outline-border/60 border border-outline-border flex items-center justify-center text-xs font-mono font-bold">
-          HP
+      <div className="flex items-center gap-3">
+        {user && (
+          <div className="hidden sm:flex flex-col items-end">
+            <span className="text-xs font-semibold text-primary-text leading-none">{user.name}</span>
+            <span className="text-[10px] text-secondary-text mt-0.5 leading-none">{user.email}</span>
+          </div>
+        )}
+        <div className="w-8 h-8 rounded-full bg-outline-border/60 border border-outline-border flex items-center justify-center text-xs font-mono font-bold" title={user?.name || "User"}>
+          {getInitials()}
         </div>
+        <button
+          onClick={handleLogout}
+          className="text-xs font-semibold uppercase tracking-wider px-3 py-1.5 border border-outline-border rounded-[4px] hover:bg-outline-border/30 transition-colors cursor-pointer text-secondary-text hover:text-primary-text"
+        >
+          Logout
+        </button>
       </div>
     </header>
   );
