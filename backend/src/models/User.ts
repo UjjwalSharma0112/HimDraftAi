@@ -3,8 +3,11 @@ import mongoose, { Schema, Document } from "mongoose";
 export interface IUser extends Document {
   name: string;
   email: string;
-  passwordHash: string;
-  provider: string;
+  passwordHash?: string;
+  provider: "local" | "google";
+  googleId?: string;
+  createdAt: Date;
+  updatedAt: Date;
 }
 
 const userSchema = new Schema<IUser>(
@@ -18,16 +21,24 @@ const userSchema = new Schema<IUser>(
       type: String,
       required: true,
       unique: true,
+      lowercase: true,
+      trim: true,
     },
 
     passwordHash: {
       type: String,
-      required: true,
+      required: false,
     },
 
     provider: {
       type: String,
+      enum: ["local", "google"],
       default: "local",
+    },
+
+    googleId: {
+      type: String,
+      required: false,
     },
   },
   {
