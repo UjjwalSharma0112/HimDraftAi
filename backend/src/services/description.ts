@@ -1,20 +1,5 @@
 import Description from "../models/Description";
-import User from "../models/User";
 import mongoose from "mongoose";
-
-// Helper to get or create a default user ID to satisfy the model requirement
-const getOrCreateDefaultUser = async (): Promise<mongoose.Types.ObjectId> => {
-  let user = await User.findOne({ email: "default@himshakti.com" });
-  if (!user) {
-    user = await User.create({
-      name: "Default User",
-      email: "default@himshakti.com",
-      passwordHash: "dummyhash",
-      provider: "local",
-    });
-  }
-  return user._id as mongoose.Types.ObjectId;
-};
 
 // Map mongoose document to the ProductDescription format expected by the frontend
 const mapToProductDescription = (doc: any) => {
@@ -29,54 +14,54 @@ const mapToProductDescription = (doc: any) => {
   };
 };
 
-export const getAllDescriptions = async () => {
-  const descriptions = await Description.find().sort({ createdAt: -1 });
+export const getAllDescriptions = async (userId: string) => {
+  const descriptions = await Description.find({ userId }).sort({ createdAt: -1 });
   return descriptions.map(mapToProductDescription);
 };
 
-export const getDescriptionById = async (id: string) => {
+export const getDescriptionById = async (id: string, userId: string) => {
   if (!mongoose.Types.ObjectId.isValid(id)) {
     return null;
   }
-  const description = await Description.findById(id);
+  const description = await Description.findOne({ _id: id, userId });
   return description ? mapToProductDescription(description) : null;
 };
 
-export const createDescription = async (data: any) => {
-  const userId = await getOrCreateDefaultUser();
+export const createDescription = async (userId: string, data: any) => {
   const description = await Description.create({
     ...data,
-    userId,
+    userId: new mongoose.Types.ObjectId(userId),
   });
   return mapToProductDescription(description);
 };
 
-export const updateDescription = async (id: string, data: any) => {
+export const updateDescription = async (id: string, userId: string, data: any) => {
   if (!mongoose.Types.ObjectId.isValid(id)) {
     return null;
   }
-  const description = await Description.findByIdAndUpdate(
-    id,
+  const description = await Description.findOneAndUpdate(
+    { _id: id, userId },
     { $set: data },
     { new: true }
   );
   return description ? mapToProductDescription(description) : null;
 };
 
-export const deleteDescription = async (id: string) => {
+export const deleteDescription = async (id: string, userId: string) => {
   if (!mongoose.Types.ObjectId.isValid(id)) {
     return null;
   }
-  const description = await Description.findByIdAndDelete(id);
+  const description = await Description.findOneAndDelete({ _id: id, userId });
   return description ? mapToProductDescription(description) : null;
 };
 
-export const searchDescriptions = async (query: string) => {
+export const searchDescriptions = async (query: string, userId: string) => {
   const q = String(query || "").trim();
   if (!q) {
-    return getAllDescriptions();
+    return getAllDescriptions(userId);
   }
   const descriptions = await Description.find({
+    userId,
     productName: { $regex: q, $options: "i" }
   }).sort({ createdAt: -1 });
   return descriptions.map(mapToProductDescription);
