@@ -1,10 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 
 export const Register: React.FC = () => {
-  const { register } = useAuth();
+  const { register, token, isLoading } = useAuth();
   const navigate = useNavigate();
+
+  useEffect(() => {
+    if (!isLoading && token) {
+      navigate("/", { replace: true });
+    }
+  }, [token, isLoading, navigate]);
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");

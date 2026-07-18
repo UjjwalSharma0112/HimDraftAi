@@ -3,7 +3,7 @@ import { useNavigate, useLocation, Link, useSearchParams } from "react-router-do
 import { useAuth } from "../context/AuthContext";
 
 export const Login: React.FC = () => {
-  const { login } = useAuth();
+  const { login, token, isLoading } = useAuth();
   const navigate = useNavigate();
   const location = useLocation();
   const [searchParams] = useSearchParams();
@@ -16,11 +16,18 @@ export const Login: React.FC = () => {
   const from = (location.state as any)?.from?.pathname || "/";
 
   useEffect(() => {
+    if (!isLoading && token) {
+      navigate("/", { replace: true });
+    }
+  }, [token, isLoading, navigate]);
+
+  useEffect(() => {
     const errorParam = searchParams.get("error");
+    const detailsParam = searchParams.get("details");
     if (errorParam === "oauth_failed") {
-      setError("Google authentication failed. Please try again.");
+      setError(`Google authentication failed: ${detailsParam || "Please try again."}`);
     } else if (errorParam === "no_user") {
-      setError("No user profile could be fetched from Google. Please try again.");
+      setError(`No user profile could be fetched from Google: ${detailsParam || "Please try again."}`);
     }
   }, [searchParams]);
 
