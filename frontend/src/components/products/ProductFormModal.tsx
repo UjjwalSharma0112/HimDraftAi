@@ -337,7 +337,7 @@ export const ProductFormModal: React.FC<ProductFormModalProps> = ({
               disabled={isGeneratingCopy || isVague}
               className="text-[11px] font-semibold text-blue-600 dark:text-blue-400 hover:underline flex items-center gap-1 cursor-pointer disabled:opacity-50"
             >
-              <span>{isGeneratingCopy ? "Generating..." : "✨ AI Assist Generate"}</span>
+              <span>{isGeneratingCopy ? "Generating..." : "AI Assist Generate"}</span>
             </button>
           </div>
 
@@ -345,7 +345,9 @@ export const ProductFormModal: React.FC<ProductFormModalProps> = ({
             /* Clarification Flow inline in Modal */
             <div className="space-y-4 bg-surface-bg border border-amber-500/20 rounded-[4px] p-4 animate-fadeIn">
               <div className="flex items-center space-x-1.5 text-amber-600 dark:text-amber-400 font-bold text-[11px] uppercase tracking-wide">
-                <span>💬</span>
+                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                </svg>
                 <span>AI Clarification Requested</span>
               </div>
               <p className="text-[11px] text-secondary-text">
