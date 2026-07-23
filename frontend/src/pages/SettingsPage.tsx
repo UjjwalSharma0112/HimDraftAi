@@ -10,7 +10,7 @@ export default function SettingsPage() {
   return (
     <div className="space-y-8 max-w-2xl">
       <div className="border-b border-outline-border pb-6">
-        <h1 className="text-xl sm:text-2xl md:text-3xl font-bold tracking-tight uppercase">Workspace Configuration</h1>
+        <h1 className="text-xl sm:text-2xl md:text-3xl font-bold tracking-tight uppercase">Workspace Settings</h1>
         <p className="text-[11px] sm:text-xs text-secondary-text mt-1">
           Customize exporter brand profiles and default workspace preferences.
         </p>
@@ -29,8 +29,8 @@ export default function SettingsPage() {
             onChange={(e) => setBrandName(e.target.value)}
           />
 
-          <Button variant="primary" onClick={() => showToast("Brand configuration saved!", "success")}>
-            Save Configuration
+          <Button variant="primary" onClick={() => showToast("Brand settings saved!", "success")}>
+            Save Settings
           </Button>
         </div>
       </div>

@@ -95,7 +95,7 @@ export default function DetailPage() {
       <div className="border-b border-outline-border pb-6">
         <h1 className="text-xl sm:text-2xl md:text-3xl font-bold tracking-tight uppercase">Description Detail View</h1>
         <p className="text-[11px] sm:text-xs text-secondary-text mt-1">
-          Inspect product properties and generated copy details.
+          Inspect product details and generated copy narratives.
         </p>
       </div>
 

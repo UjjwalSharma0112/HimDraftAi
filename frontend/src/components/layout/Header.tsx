@@ -17,7 +17,7 @@ export const Header: React.FC<HeaderProps> = ({
     const path = location.pathname;
     if (path.startsWith("/generator")) return "AI Copywriter Generator";
     if (path.startsWith("/detail")) return "Description Details";
-    if (path.startsWith("/settings")) return "Workspace Configuration";
+    if (path.startsWith("/settings")) return "Workspace Settings";
     return "Workspace Dashboard";
   };
 
