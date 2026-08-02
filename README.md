@@ -6,12 +6,16 @@ AI-powered e-commerce product description generator for traditional Himalayan fo
 
 ---
 
-## 🌐 Live Deployment & Documentation
+## ð Live Deployment & Documentation
 
-### todo
+### ð Production URLs
+- **Frontend App (Vercel)**: *
+- **Backend API (Render)**: *
+- **Health Check Endpoint**: *
+
 ---
 
-### 🛠️ Tech Stack Summary
+### ð ï¸ Tech Stack Summary
 
 | Layer | Technology / Library | Purpose |
 | :--- | :--- | :--- |
@@ -25,7 +29,7 @@ AI-powered e-commerce product description generator for traditional Himalayan fo
 
 ---
 
-### 🔑 Production Environment Variables Setup
+### ð Production Environment Variables Setup
 
 #### 1. Backend Environment Variables (Render Dashboard)
 Set these keys under **Render Dashboard $\rightarrow$ Environment**:
@@ -51,7 +55,7 @@ Set this key under **Vercel Dashboard $\rightarrow$ Settings $\rightarrow$ Envir
 
 ---
 
-### 🚀 Step-by-Step Deployment Guide
+### ð Step-by-Step Deployment Guide
 
 #### 1. Database Configuration (MongoDB Atlas)
 1. Log into [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
@@ -79,9 +83,21 @@ Set this key under **Vercel Dashboard $\rightarrow$ Settings $\rightarrow$ Envir
 
 ---
 
-### ⚠️ Known Free Tier Limitations
+### â ï¸ Known Free Tier Limitations
 
+> [!NOTE]
+> **1. Render Free Tier Idle Sleep (Cold Starts)**
+> Render's free web service tier automatically enters sleep mode after 15 minutes of inactivity. The initial HTTP request after an idle period may take **30 to 60 seconds** to wake up the server container. Subsequent requests run at normal fast speeds.
 
+> [!TIP]
+> **2. MongoDB Atlas Network Access**
+> Ensure `0.0.0.0/0` is whitelisted in Atlas Network Access so Render backend instances can establish database connections smoothly without IP rejection.
+
+> [!IMPORTANT]
+> **3. Google OAuth Redirect URIs**
+> If Google Login is active, ensure both your Vercel frontend domain (`https://himshakti-ai.vercel.app`) and Render callback URI (`https://himshakti-ai-backend.onrender.com/api/auth/google/callback`) are added to **Authorized Redirect URIs** in Google Cloud Console.
+
+---
 
 ## Database Architecture
 
