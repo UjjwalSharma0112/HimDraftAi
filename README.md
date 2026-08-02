@@ -8,11 +8,7 @@ AI-powered e-commerce product description generator for traditional Himalayan fo
 
 ## 🌐 Live Deployment & Documentation
 
-### 🚀 Production URLs
-- **Frontend App (Vercel)**: [https://himshakti-ai.vercel.app](https://himshakti-ai.vercel.app) *(Replace with your live Vercel URL)*
-- **Backend API (Render)**: [https://himshakti-ai-backend.onrender.com](https://himshakti-ai-backend.onrender.com) *(Replace with your live Render URL)*
-- **Health Check Endpoint**: [https://himshakti-ai-backend.onrender.com/api/health](https://himshakti-ai-backend.onrender.com/api/health)
-
+### todo
 ---
 
 ### 🛠️ Tech Stack Summary
@@ -85,19 +81,7 @@ Set this key under **Vercel Dashboard $\rightarrow$ Settings $\rightarrow$ Envir
 
 ### ⚠️ Known Free Tier Limitations
 
-> [!NOTE]
-> **1. Render Free Tier Idle Sleep (Cold Starts)**
-> Render's free web service tier automatically enters sleep mode after 15 minutes of inactivity. The initial HTTP request after an idle period may take **30 to 60 seconds** to wake up the server container. Subsequent requests run at normal fast speeds.
 
-> [!TIP]
-> **2. MongoDB Atlas Network Access**
-> Ensure `0.0.0.0/0` is whitelisted in Atlas Network Access so Render backend instances can establish database connections smoothly without IP rejection.
-
-> [!IMPORTANT]
-> **3. Google OAuth Redirect URIs**
-> If Google Login is active, ensure both your Vercel frontend domain (`https://himshakti-ai.vercel.app`) and Render callback URI (`https://himshakti-ai-backend.onrender.com/api/auth/google/callback`) are added to **Authorized Redirect URIs** in Google Cloud Console.
-
----
 
 ## Database Architecture
 
