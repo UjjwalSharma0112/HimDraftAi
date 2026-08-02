@@ -6,16 +6,16 @@ AI-powered e-commerce product description generator for traditional Himalayan fo
 
 ---
 
-## ð Live Deployment & Documentation
+## 🌐 Live Deployment & Documentation
 
-### ð Production URLs
-- **Frontend App (Vercel)**: *
-- **Backend API (Render)**: *
-- **Health Check Endpoint**: *
+### 🚀 Production URLs
+- **Frontend App (Vercel)**: [https://him-draft-ai.vercel.app/](https://him-draft-ai.vercel.app/) 
+- **Backend API (Render)**: [https://himdraftai.onrender.com/](https://himdraftai.onrender.com/) 
+- **Health Check Endpoint**: [https://himdraftai.onrender.com/api/health](https://himdraftai.onrender.com/api/health)
 
 ---
 
-### ð ï¸ Tech Stack Summary
+### 🛠️ Tech Stack Summary
 
 | Layer | Technology / Library | Purpose |
 | :--- | :--- | :--- |
@@ -29,7 +29,7 @@ AI-powered e-commerce product description generator for traditional Himalayan fo
 
 ---
 
-### ð Production Environment Variables Setup
+### 🔑 Production Environment Variables Setup
 
 #### 1. Backend Environment Variables (Render Dashboard)
 Set these keys under **Render Dashboard $\rightarrow$ Environment**:
@@ -38,7 +38,7 @@ Set these keys under **Render Dashboard $\rightarrow$ Environment**:
 | :--- | :--- | :--- |
 | `NODE_ENV` | Mode indicator | `production` |
 | `PORT` | Web server port | `8080` |
-| `CLIENT_URL` | Live Vercel frontend URL for CORS & OAuth | `https://himshakti-ai.vercel.app` |
+| `CLIENT_URL` | Live Vercel frontend URL for CORS & OAuth | `https://him-draft-ai.vercel.app/` |
 | `MONGO_URI` | MongoDB Atlas cloud connection string | `mongodb+srv://<user>:<pass>@cluster0.mongodb.net/himdraftai` |
 | `JWT_SECRET` | Secret key for signing auth tokens | `<your-secure-random-jwt-secret>` |
 | `GOOGLE_CLIENT_ID` | OAuth Client ID from Google Cloud | `<your-client-id>.apps.googleusercontent.com` |
@@ -55,7 +55,7 @@ Set this key under **Vercel Dashboard $\rightarrow$ Settings $\rightarrow$ Envir
 
 ---
 
-### ð Step-by-Step Deployment Guide
+### 🚀 Step-by-Step Deployment Guide
 
 #### 1. Database Configuration (MongoDB Atlas)
 1. Log into [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
@@ -83,7 +83,7 @@ Set this key under **Vercel Dashboard $\rightarrow$ Settings $\rightarrow$ Envir
 
 ---
 
-### â ï¸ Known Free Tier Limitations
+### ⚠️ Known Free Tier Limitations
 
 > [!NOTE]
 > **1. Render Free Tier Idle Sleep (Cold Starts)**
