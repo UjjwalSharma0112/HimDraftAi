@@ -6,16 +6,16 @@ AI-powered e-commerce product description generator for traditional Himalayan fo
 
 ---
 
-## 🌐 Live Deployment & Documentation
+## ð Live Deployment & Documentation
 
-### 🚀 Production URLs
-- **Frontend App (Vercel)**: [https://himshakti-ai.vercel.app](https://himshakti-ai.vercel.app) *(Replace with your live Vercel URL)*
-- **Backend API (Render)**: [https://himshakti-ai-backend.onrender.com](https://himshakti-ai-backend.onrender.com) *(Replace with your live Render URL)*
-- **Health Check Endpoint**: [https://himshakti-ai-backend.onrender.com/api/health](https://himshakti-ai-backend.onrender.com/api/health)
+### ð Production URLs
+- **Frontend App (Vercel)**: *
+- **Backend API (Render)**: *
+- **Health Check Endpoint**: *
 
 ---
 
-### 🛠️ Tech Stack Summary
+### ð ï¸ Tech Stack Summary
 
 | Layer | Technology / Library | Purpose |
 | :--- | :--- | :--- |
@@ -29,7 +29,7 @@ AI-powered e-commerce product description generator for traditional Himalayan fo
 
 ---
 
-### 🔑 Production Environment Variables Setup
+### ð Production Environment Variables Setup
 
 #### 1. Backend Environment Variables (Render Dashboard)
 Set these keys under **Render Dashboard $\rightarrow$ Environment**:
@@ -55,7 +55,7 @@ Set this key under **Vercel Dashboard $\rightarrow$ Settings $\rightarrow$ Envir
 
 ---
 
-### 🚀 Step-by-Step Deployment Guide
+### ð Step-by-Step Deployment Guide
 
 #### 1. Database Configuration (MongoDB Atlas)
 1. Log into [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
@@ -83,7 +83,7 @@ Set this key under **Vercel Dashboard $\rightarrow$ Settings $\rightarrow$ Envir
 
 ---
 
-### ⚠️ Known Free Tier Limitations
+### â ï¸ Known Free Tier Limitations
 
 > [!NOTE]
 > **1. Render Free Tier Idle Sleep (Cold Starts)**
