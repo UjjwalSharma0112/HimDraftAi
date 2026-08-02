@@ -11,7 +11,7 @@ export const OAuthSuccess: React.FC = () => {
     const token = params.get("token");
     if (token) {
       setOAuthToken(token);
-      navigate("/", { replace: true });
+      window.location.href = "/";
     } else {
       navigate("/login?error=oauth_failed", { replace: true });
     }
