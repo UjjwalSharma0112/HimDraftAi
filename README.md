@@ -1,146 +1,230 @@
 # HimShakti AI Product Copy Generator
 
-AI-powered e-commerce product description generator for traditional Himalayan food products.
+An AI-powered workspace for creating, refining, and managing compelling e-commerce product descriptions for Himalayan food and wellness products.
 
-![Project Preview](./frontend/public/logo.png)
+## Live Demo
 
----
+[https://him-draft-ai.vercel.app/](https://him-draft-ai.vercel.app/)
 
-## 🌐 Live Deployment & Documentation
+## Screenshots
 
-### 🚀 Production URLs
-- **Frontend App (Vercel)**: [https://him-draft-ai.vercel.app/](https://him-draft-ai.vercel.app/) 
-- **Backend API (Render)**: [https://himdraftai.onrender.com/](https://himdraftai.onrender.com/) 
-- **Health Check Endpoint**: [https://himdraftai.onrender.com/api/health](https://himdraftai.onrender.com/api/health)
+| Landing page | Dashboard |
+| --- | --- |
+| ![HimShakti AI landing page](./landing.png) | ![HimShakti AI dashboard](./dashboard.png) |
+| Product copywriter | Generated product description |
+| ![Product copywriter form](./product_copywriter.png) | ![Sample generated description](./sample_desc.png) |
 
----
+## Features
 
-### 🛠️ Tech Stack Summary
+- Creates 100–150 word, e-commerce-ready product descriptions for Himalayan food and wellness products.
+- Supports premium, traditional, and health-focused writing tones.
+- Detects sparse product information and asks tailored follow-up questions before generating copy.
+- Captures product name, ingredients, weight, product features, and optional clarification answers.
+- Lets authenticated users save, view, edit, delete, and search their generated descriptions.
+- Provides email/password registration and login, plus Google OAuth sign-in.
+- Keeps every user’s saved descriptions isolated behind JWT-protected API routes.
 
-| Layer | Technology / Library | Purpose |
-| :--- | :--- | :--- |
-| **Frontend Framework** | React 19 + Vite | High-performance single page client |
-| **Styling & UI** | Tailwind CSS + Google Fonts | Himalayan organic dark/light design system |
-| **Backend Framework** | Express.js + TypeScript | RESTful API server & middleware routing |
-| **Database** | MongoDB Atlas (Mongoose ORM) | Cloud document store for product & copy data |
-| **AI Engine** | Google Gemini API (`@google/generative-ai`) | Generates structured Himalayan product copy |
-| **Authentication** | JWT + Passport.js (Google OAuth 2.0) | Secure token-based auth & social login |
-| **Hosting & Infra** | Vercel (Frontend) + Render (Backend) | CI/CD cloud deployment |
+## Tech Stack
 
----
+| Area | Technology |
+| --- | --- |
+| Frontend | React 19, TypeScript, Vite, React Router, Tailwind CSS |
+| Backend | Node.js, Express 5, TypeScript, Zod |
+| Database | MongoDB Atlas with Mongoose |
+| AI | Google Gemini via `@google/generative-ai` (`gemini-3.1-flash-lite`) |
+| Authentication | JWT, bcrypt, Passport, Google OAuth 2.0 |
+| Deployment | Vercel (frontend), Render (backend) |
 
-### 🔑 Production Environment Variables Setup
-
-#### 1. Backend Environment Variables (Render Dashboard)
-Set these keys under **Render Dashboard $\rightarrow$ Environment**:
-
-| Variable Name | Description | Example / Default |
-| :--- | :--- | :--- |
-| `NODE_ENV` | Mode indicator | `production` |
-| `PORT` | Web server port | `8080` |
-| `CLIENT_URL` | Live Vercel frontend URL for CORS & OAuth | `https://him-draft-ai.vercel.app/` |
-| `MONGO_URI` | MongoDB Atlas cloud connection string | `mongodb+srv://<user>:<pass>@cluster0.mongodb.net/himdraftai` |
-| `JWT_SECRET` | Secret key for signing auth tokens | `<your-secure-random-jwt-secret>` |
-| `GOOGLE_CLIENT_ID` | OAuth Client ID from Google Cloud | `<your-client-id>.apps.googleusercontent.com` |
-| `GOOGLE_CLIENT_SECRET` | OAuth Client Secret from Google Cloud | `<your-client-secret>` |
-| `GOOGLE_CALLBACK_URL` | OAuth redirect endpoint on backend | `https://himshakti-ai-backend.onrender.com/api/auth/google/callback` |
-| `GEMINI_API_KEY` | Google Gemini AI key for generation | `<your-gemini-api-key>` |
-
-#### 2. Frontend Environment Variables (Vercel Dashboard)
-Set this key under **Vercel Dashboard $\rightarrow$ Settings $\rightarrow$ Environment Variables**:
-
-| Variable Name | Description | Example / Default |
-| :--- | :--- | :--- |
-| `VITE_API_URL` | Live Render backend API base URL | `https://himshakti-ai-backend.onrender.com/api` |
-
----
-
-### 🚀 Step-by-Step Deployment Guide
-
-#### 1. Database Configuration (MongoDB Atlas)
-1. Log into [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
-2. Go to **Network Access** $\rightarrow$ **Add IP Address** $\rightarrow$ Add `0.0.0.0/0` (Allow Access from Anywhere) to permit Render's dynamic IP instances.
-3. Copy your MongoDB connection string (`MONGO_URI`).
-
-#### 2. Backend Deployment (Render Web Service)
-1. Sign in to [Render.com](https://render.com) and click **New $\rightarrow$ Web Service**.
-2. Connect your GitHub repository.
-3. Configure the following build settings:
-   - **Root Directory**: `backend`
-   - **Build Command**: `npm install && npm run build`
-   - **Start Command**: `npm start`
-4. Add all Backend Environment Variables listed above.
-5. Click **Deploy Web Service** and save your assigned Render URL.
-
-#### 3. Frontend Deployment (Vercel)
-1. Sign in to [Vercel.com](https://vercel.com) and click **Add New $\rightarrow$ Project**.
-2. Import your GitHub repository.
-3. Configure Framework & Directory:
-   - **Framework Preset**: Vite
-   - **Root Directory**: `frontend`
-4. Add `VITE_API_URL` pointing to your Render backend API (`https://<your-render-url>/api`).
-5. Click **Deploy**.
-
----
-
-### ⚠️ Known Free Tier Limitations
-
-> [!NOTE]
-> **1. Render Free Tier Idle Sleep (Cold Starts)**
-> Render's free web service tier automatically enters sleep mode after 15 minutes of inactivity. The initial HTTP request after an idle period may take **30 to 60 seconds** to wake up the server container. Subsequent requests run at normal fast speeds.
-
-> [!TIP]
-> **2. MongoDB Atlas Network Access**
-> Ensure `0.0.0.0/0` is whitelisted in Atlas Network Access so Render backend instances can establish database connections smoothly without IP rejection.
-
-> [!IMPORTANT]
-> **3. Google OAuth Redirect URIs**
-> If Google Login is active, ensure both your Vercel frontend domain (`https://himshakti-ai.vercel.app`) and Render callback URI (`https://himshakti-ai-backend.onrender.com/api/auth/google/callback`) are added to **Authorized Redirect URIs** in Google Cloud Console.
-
----
-
-## Database Architecture
-
-### Why We Chose MongoDB Atlas
-For HimDraftAI, we selected **MongoDB Atlas** as our primary database. Because the core of the application deals with generating rich, unstructured, and highly variable product information (ranging from lists of organic ingredients to changing product feature tags, and multiple versions of AI-generated marketing copy), a document-oriented database fits our data model perfectly. 
-
-Using MongoDB's flexible, schema-less approach allows us to iterate rapidly. We can expand our product descriptions, add rich analytics logs, or introduce new metadata schemas down the line without needing to perform slow or risky database schema migrations.
-
-### Schema Diagram
-The database relationships and schema structure are outlined below:
-
-![Database Schema Diagram](./schemadiagram.png)
-
----
-
-## Local Development Setup
+## Setup Instructions
 
 ### Prerequisites
-- Node.js (v18 or higher)
-- npm or yarn
-- A running MongoDB instance (locally or hosted on MongoDB Atlas)
 
-### Setting Up the Backend
-1. Navigate to the `backend` directory.
-2. Copy `.env.example` to create your `.env` file:
-   ```bash
-   cp .env.example .env
-   ```
-3. Fill in your local or Atlas credentials in `backend/.env`.
-4. Start the backend development server:
-   ```bash
-   npm run dev
-   ```
+- Node.js 18 or later
+- npm
+- A MongoDB database (local MongoDB or MongoDB Atlas)
+- A Gemini API key
+- Google OAuth credentials if you want to enable Google sign-in
 
-### Setting Up the Frontend
-1. Navigate to the `frontend` directory.
-2. Copy `.env.example` to `.env`:
-   ```bash
-   cp .env.example .env
-   ```
-3. Install dependencies and start the frontend development server:
-   ```bash
-   npm install
-   npm run dev
-   ```
-4. Open your browser at `http://localhost:5173`.
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/UjjwalSharma0112/HimShakti-AI-Product-Copy-Generator.git
+cd HimShakti-AI-Product-Copy-Generator
+```
+
+### 2. Configure and run the backend
+
+```bash
+cd backend
+copy .env.example .env
+npm install
+npm run dev
+```
+
+On macOS/Linux, use `cp .env.example .env` in place of `copy`.
+
+Set the following values in `backend/.env`:
+
+```env
+NODE_ENV=development
+PORT=8080
+CLIENT_URL=http://localhost:5173
+MONGO_URI=mongodb://127.0.0.1:27017/himdraftai
+JWT_SECRET=replace-with-a-long-random-secret
+GEMINI_API_KEY=your-gemini-api-key
+
+# Optional: required only for Google OAuth
+GOOGLE_CLIENT_ID=your-google-client-id.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=your-google-client-secret
+GOOGLE_CALLBACK_URL=http://localhost:8080/api/auth/google/callback
+```
+
+The API starts at `http://localhost:8080`.
+
+### 3. Configure and run the frontend
+
+Open a second terminal from the repository root, then run:
+
+```bash
+cd frontend
+copy .env.example .env
+npm install
+npm run dev
+```
+
+Set `frontend/.env` to point at your local API:
+
+```env
+VITE_API_URL=http://localhost:8080/api
+```
+
+Open [http://localhost:5173](http://localhost:5173). For a production build, use `npm run build` in both `backend` and `frontend`; start the compiled backend with `npm start`.
+
+## API Documentation
+
+The base URL is `http://localhost:8080/api` locally. All `/descriptions` and `/ai` routes require `Authorization: Bearer <jwt>`.
+
+### Health
+
+`GET /health`
+
+```json
+{ "status": "ok", "timestamp": "2026-08-07T10:00:00.000Z" }
+```
+
+### Authentication
+
+`POST /auth/register`
+
+```json
+{ "name": "Asha", "email": "asha@example.com", "password": "secret123", "confirmPassword": "secret123" }
+```
+
+```json
+{ "message": "User registered successfully", "user": { "id": "...", "name": "Asha", "email": "asha@example.com", "provider": "local" } }
+```
+
+`POST /auth/login`
+
+```json
+{ "email": "asha@example.com", "password": "secret123" }
+```
+
+```json
+{ "token": "<jwt>", "user": { "id": "...", "name": "Asha", "email": "asha@example.com", "provider": "local" } }
+```
+
+`GET /auth/google` starts the Google OAuth flow; `GET /auth/google/callback` completes it and redirects back to the frontend.
+
+### AI copy generation
+
+`POST /ai/generate`
+
+```json
+{
+  "productName": "Raw Himalayan Honey",
+  "ingredients": ["Raw honey"],
+  "weight": "500 g",
+  "features": ["Wild-harvested", "Unprocessed"],
+  "tone": "traditional"
+}
+```
+
+The response either asks for details:
+
+```json
+{ "isVague": true, "clarifications": [{ "id": "harvest_method", "question": "How is it harvested?", "options": ["..."], "allowCustom": true }] }
+```
+
+or returns generated copy:
+
+```json
+{ "isVague": false, "copy": "Harvested from the Himalayan foothills..." }
+```
+
+Send an `answers` object with the original payload to generate after clarification.
+
+### Saved descriptions
+
+| Endpoint | Purpose |
+| --- | --- |
+| `GET /descriptions` | List the signed-in user’s saved descriptions. |
+| `GET /descriptions/search?q=honey` | Search saved descriptions by product name. |
+| `GET /descriptions/:id` | Retrieve one saved description. |
+| `POST /descriptions` | Save a description payload. |
+| `PUT /descriptions/:id` | Update a saved description. |
+| `DELETE /descriptions/:id` | Delete a saved description; returns `204 No Content`. |
+
+Example create request:
+
+```json
+{
+  "productName": "Raw Himalayan Honey",
+  "ingredients": ["Raw honey"],
+  "weight": "500 g",
+  "features": ["Wild-harvested"],
+  "tone": "traditional",
+  "generatedDescription": "Harvested from the Himalayan foothills..."
+}
+```
+
+## Architecture / Folder Structure
+
+```text
+.
+├── frontend/                 # React single-page application
+│   └── src/
+│       ├── api/              # API client modules
+│       ├── components/       # Reusable UI and product components
+│       ├── context/          # Authentication state
+│       ├── pages/            # Landing, dashboard, generator, detail, and auth pages
+│       └── layouts/          # Authenticated workspace layout
+├── backend/                  # Express API
+│   └── src/
+│       ├── auth/             # Local and Google OAuth authentication
+│       ├── controller/       # HTTP request handlers
+│       ├── models/           # Mongoose models
+│       ├── routes/           # AI and description endpoints
+│       ├── services/         # Gemini generation and persistence logic
+│       └── middleware/       # JWT, rate limiting, and error handling
+└── *.png                     # README screenshots and schema asset
+```
+
+The browser app communicates with the Express REST API. The API authenticates users, persists descriptions in MongoDB, and calls Gemini to assess product details and produce the final copy.
+
+## Known Limitations
+
+- Render’s free tier can sleep after inactivity, so the first API request may take roughly 30–60 seconds.
+- Generated copy depends on Gemini availability, quotas, and the quality of the product details supplied.
+- If Gemini’s clarification-analysis call fails, the app proceeds directly to copy generation to avoid blocking the user.
+- There are no automated test suites or CI checks in the repository yet.
+- Saved content is currently organized as individual descriptions; collaboration, version history, exports, and analytics are not yet implemented.
+- Google OAuth requires correctly configured Google Cloud redirect URIs and environment variables.
+
+## Credits & Acknowledgements
+
+- [Google Gemini](https://ai.google.dev/) powers product-detail analysis and copy generation.
+- [MongoDB Atlas](https://www.mongodb.com/atlas) provides the managed document database.
+- [Vercel](https://vercel.com/) and [Render](https://render.com/) support deployment.
+- Built with the React, Vite, Express, Mongoose, Passport, and Tailwind CSS ecosystems.
+- Product-copy prompts and the UI workflow were shaped with AI-assisted development tools, including OpenAI Codex.
