@@ -8,11 +8,21 @@ An AI-powered workspace for creating, refining, and managing compelling e-commer
 
 ## Screenshots
 
-| Landing page | Dashboard |
-| --- | --- |
-| ![HimShakti AI landing page](./landing.png) | ![HimShakti AI dashboard](./dashboard.png) |
-| Product copywriter | Generated product description |
-| ![Product copywriter form](./product_copywriter.png) | ![Sample generated description](./sample_desc.png) |
+### Landing page
+
+![HimShakti AI landing page](./landing.png)
+
+### Dashboard
+
+![HimShakti AI dashboard](./dashboard.png)
+
+### Product copywriter
+
+![Product copywriter form](./product_copywriter.png)
+
+### Generated product description
+
+![Sample generated description](./sample_desc.png)
 
 ## Features
 
