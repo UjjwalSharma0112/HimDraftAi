@@ -1,4 +1,4 @@
-# HimShakti AI Product Copy Generator
+# HimDraft AI Product Copy Generator
 
 An AI-powered workspace for creating, refining, and managing compelling e-commerce product descriptions for Himalayan food and wellness products.
 
